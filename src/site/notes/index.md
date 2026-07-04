@@ -40,7 +40,7 @@ A data-driven civic repository for the community of Johnson City, Tennessee.
 ---
 
 ### Maps
-* [[Maps/Area (Maps,District)\|Area (Maps,District)]]
+* [[Maps/Districts, Zones, Maps\|Districts, Zones, Maps]]
 
 ---
 

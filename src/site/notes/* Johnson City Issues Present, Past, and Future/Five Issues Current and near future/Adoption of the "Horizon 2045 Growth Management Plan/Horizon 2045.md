@@ -3,7 +3,6 @@
 ---
 
 
-
 The "Horizon 2045" Growth Management Plan...
 
 The "Horizon 2045" Growth Management Plan is Johnson City’s newly updated comprehensive plan, designed to serve as a community-driven roadmap for the city's development, infrastructure, and housing over the next two decades. State law requires all jurisdictions that maintain a zoning map to establish a guiding comprehensive plan, and Horizon 2045 is the city’s current framework to ensure growth remains manageable rather than reactive.
