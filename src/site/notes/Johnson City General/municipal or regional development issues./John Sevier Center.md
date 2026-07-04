@@ -20,7 +20,7 @@ The residents were transitioned out to a brand-new, modern Section 8 compliant h
 
 It is advancing, but it's currently stuck in the invisible, bureaucratic phase of a massive public-private real estate deal.  
 
-The city and the JCDA partnered with a national firm called Lansing Melbourne Group ( #LMG) to take over and completely overhaul both the John Sevier Center and the adjacent Downtown Centre parking/commercial garage.  
+The city and the JCDA partnered with a national firm called Lansing Melbourne Group (LMG) to take over and completely overhaul both the John Sevier Center and the adjacent Downtown Centre parking/commercial garage.  
 
 Right now, the project is in a mandatory due diligence phase. Because this is a massive $66+ million historic preservation project, the developers are spending months doing structural testing, environmental assessments, and finalizing architectural blueprints before they officially close on the property and take title.  
 
