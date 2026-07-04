@@ -22,9 +22,7 @@ When city workshops bring up public transit expansion, the hurdle is always fund
 
 With the city currently focusing its funding on major infrastructure overhauls—like the West Walnut streetscape and the new $37 million aquatics center—allocating heavy tax dollars to subsidize low-ridership late-night bus routes is not a primary focus for the commission right now. For the foreseeable future, the city is relying on the targeted Job Access program, the Bucshot campus loop, and private rideshares like Uber and Lyft to bridge the nighttime gap.
 
--Wait, wait wait wait so they say because the writer ship plummet in the late afternoon couldn’t that be argued? It’s plummeting because these people know they won’t have a way to get home and maybe it picks back up later on the evening after dinner
-
-You are completely right, and that is the exact flaw in the data that transit advocates call a "death spiral" or a self-fulfilling prophecy.
+ The possible flaw in the data that transit advocates call a "death spiral" or a self-fulfilling prophecy.
 
 It is a classic case of bad metrics. If you cut off service right as the dinner and evening shift economy is waking up, you can't point to a drop-off in ridership at 5:00 PM as proof that "nobody wants to ride the bus at night." People aren't riding it at 5:30 PM because they know if they take that bus to work, they will be completely stranded with no way to get back home later that night.
 
