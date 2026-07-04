@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Safety of Centers</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d7817aeb.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Johnson City Civic Repository</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>Data centers are highly secure, heavily engineered facilities, but like any massive industrial infrastructure, they face physical and geopolitical risks.</p>
+<h2 id="internal-safety-meltdowns-and-fires" tabindex="-1">Internal Safety: Meltdowns and Fires</h2>
+<h3 id="the-and-quot-meltdown-and-quot-myth-vs-reality" tabindex="-1">The &quot;Meltdown&quot; Myth vs. Reality</h3>
+<p>Unlike nuclear power plants, data centers cannot experience a nuclear or chemical &quot;meltdown.&quot; The closest equivalent is <strong>thermal runaway</strong>, a destructive feedback loop where a rise in temperature alters the environment in a way that triggers an even greater temperature spike. Once ignited, this chemical chain reaction accelerates autonomously until it exhausts its fuel or completely destroys the hardware.</p>
+<p>While a cooling system failure will prompt servers to automatically shut down within seconds to prevent melting, the true hazard lies in the massive lithium-ion Uninterruptible Power Supply (UPS) battery arrays that keep the facility online during an outage.</p>
+<h3 id="how-the-cascading-failure-breaks-down" tabindex="-1">How the Cascading Failure Breaks Down</h3>
+<ol>
+<li>
+<p><strong>The Triggering Event:</strong> It begins with a localized failure, such as an electrical short, manufacturing defect, physical puncture, or an environmental cooling failure.</p>
+</li>
+<li>
+<p><strong>The Accelerating Loop:</strong> Once a component hits a critical thermal threshold, the internal separator inside a lithium-ion cell melts, causing a major internal short. This releases intense heat, triggering an exothermic (heat-generating) chemical reaction. That reaction generates more heat, which speeds up the reaction, trapping the cell in a self-reinforcing loop.</p>
+</li>
+<li>
+<p><strong>The Cascading Failure:</strong> The extreme heat breaches the cell casing and compromises everything around it.</p>
+<p>Cell A Overheats → Heat Cooks Cell B → Cell B Ignites Cell C</p>
+<p>In a high-density facility, this cascade can tear through an entire battery rack in minutes, releasing toxic, flammable gases and triggering intense, self-sustaining fires.</p>
+</li>
+</ol>
+<h3 id="the-nuclear-analogy" tabindex="-1">The Nuclear Analogy</h3>
+<p>While a nuclear meltdown involves a runaway fission chain reaction, thermal runaway is a runaway chemical and thermal chain reaction. The core thermodynamic problem remains identical: the system is generating heat vastly faster than its infrastructure can remove it, leading to structural self-destruction.</p>
+<h2 id="fire-percentages-and-frequency" tabindex="-1">Fire Percentages and Frequency</h2>
+<p>Fires in operational data centers are incredibly rare, but they are catastrophic when they happen.</p>
+<ul>
+<li><strong>The Odds:</strong> According to tracking data from the Uptime Institute and industrial fire safety reports, data centers experience an average of 1 to 1.5 significant fire incidents globally per year.</li>
+<li><strong>Outage Impact:</strong> Fires are responsible for only about 3% of all data center outages worldwide.</li>
+<li><strong>The Real Culprit:</strong> More data center disruptions are historically caused by the accidental discharge of high-pressure fire suppression gases (which can literally vibrate and destroy hard drives with sound waves) than by actual flames.</li>
+</ul>
+<h3 id="fire-prevention-technologies" tabindex="-1">Fire Prevention Technologies</h3>
+<p>Data centers don't use standard water sprinklers unless it's a worst-case scenario, as water ruins electronics. Instead, they rely on:</p>
+<ul>
+<li><strong>VESDA (Very Early Smoke Detection Apparatus):</strong> High-tech sniffing systems that constantly sample the air, capable of detecting microscopic pre-combustion particles before a visible wire even begins to smoke.</li>
+<li><strong>Clean Agent / Inert Gas Suppression:</strong> Systems that flood the room with gases (like Inergen or Novec) that chemically interrupt the fire or lower oxygen levels just enough to snuff out flames, while remaining perfectly safe for human breathing and computer circuitry.</li>
+</ul>
+<h2 id="notable-fire-incidents" tabindex="-1">Notable Fire Incidents</h2>
+<ul>
+<li><strong>OVHcloud (Strasbourg, France, 2021):</strong> The most catastrophic data center fire in history. A faulty Uninterruptible Power Supply (UPS) triggered a blaze that completely destroyed the four-story SBG2 data center and heavily damaged another. It knocked out millions of websites, and because there were no automatic sprinkler systems in that specific block, data for thousands of clients was permanently lost.<a href="https://www.datacenterdynamics.com/en/analysis/ovhcloud-fire-france-data-center/" target="_blank" class="external-link">https://www.datacenterdynamics.com/en/analysis/ovhcloud-fire-france-data-center/</a></li>
+<li><strong>Kakao / SK C&amp;C (South Korea, 2022):</strong> A fire broke out in a basement battery room housing lithium-ion batteries. While the fire itself was contained, the power had to be shut off for safety, paralyzing South Korea’s most popular messaging, banking, and taxi apps for days. <a href="https://www.reuters.com/world/asia-pacific/fire-knocks-out-services-south-korea-tech-giants-kakao-naver-2022-10-15/" target="_blank" class="external-link">https://www.reuters.com/world/asia-pacific/fire-knocks-out-services-south-korea-tech-giants-kakao-naver-2022-10-15/</a></li>
+<li><strong>Google Council Bluffs, Iowa (2022):</strong> Electrical incident/fire in a large hyperscale facility. Contained but caused disruptions; highlighted power-related vulnerabilities. <a href="https://www.cbsnews.com/news/google-data-center-explosion-council-bluffs-iowa-outages/" target="_blank" class="external-link">https://www.cbsnews.com/news/google-data-center-explosion-council-bluffs-iowa-outages/</a></li>
+<li><strong>Windstream, Nebraska (2023):</strong> Fire disrupted 911 services, underscoring risks to critical public infrastructure.<a href="https://www.datacenterdynamics.com/en/news/fire-at-lincoln-data-center-brings-down-911-services-in-southeast-nebraska/" target="_blank" class="external-link">https://www.datacenterdynamics.com/en/news/fire-at-lincoln-data-center-brings-down-911-services-in-southeast-nebraska/</a></li>
+<li><strong>NorthC, Almere, Netherlands (May 2026):</strong> Recent major fire in a technical section (11MW facility). Disrupted IBM Cloud, education, transport, and government services. No injuries reported, but emphasized backup power fragility. <a href="https://www.dfuntech.com/northc-data-center-fire-in-the-netherlands-why-battery-monitoring-could-have-made-the-difference.html" target="_blank" class="external-link">https://www.dfuntech.com/northc-data-center-fire-in-the-netherlands-why-battery-monitoring-could-have-made-the-difference.html</a></li>
+</ul>
+<h2 id="power-outages-and-related-disruptions" tabindex="-1">Power Outages and Related Disruptions</h2>
+<p>Power failures represent one of the leading causes of data center outages (often 36–45% of impactful incidents). They stem from utility grid problems, on-site electrical faults, generator/UPS failures, or cooling issues that trigger protective shutdowns.</p>
+<h3 id="notable-power-outage-incidents" tabindex="-1">Notable Power Outage Incidents</h3>
+<ul>
+<li><strong>Delta Air Lines (Atlanta, 2016):</strong> A power outage at Delta’s main data center (triggered by a failed switchgear during backup system testing) crippled operations. It grounded thousands of flights over several days and cost the airline approximately $150 million. Backup systems did not engage properly.<a href="https://www.datacenterknowledge.com/outages/delta-data-center-outage-cost-us-150m" target="_blank" class="external-link">https://www.datacenterknowledge.com/outages/delta-data-center-outage-cost-us-150m</a></li>
+<li><strong>Cloudflare Portland Facility (PDX01, 2023 and 2024):</strong> The same data center experienced two major power losses within months due to switchboard failures. These events tested redundancy and highlighted ongoing vulnerabilities in power delivery infrastructure. <a href="https://blog.cloudflare.com/major-data-center-power-failure-again-cloudflare-code-orange-tested/" target="_blank" class="external-link">https://blog.cloudflare.com/major-data-center-power-failure-again-cloudflare-code-orange-tested/</a></li>
+<li><strong>AWS US-East-1 Region (Multiple, including 2025–2026):</strong> Recurring issues in the high-demand Northern Virginia area. A notable 2026 incident involved a thermal event and cooling failure that caused servers to shut down automatically, impacting EC2, EBS, and other services globally. Earlier outages involved DNS/DynamoDB problems. <a href="https://www.crn.com/news/cloud/2026/aws-confirms-data-center-outage-caused-by-thermal-event-some-services-still-impacted" target="_blank" class="external-link">https://www.crn.com/news/cloud/2026/aws-confirms-data-center-outage-caused-by-thermal-event-some-services-still-impacted</a></li>
+</ul>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
