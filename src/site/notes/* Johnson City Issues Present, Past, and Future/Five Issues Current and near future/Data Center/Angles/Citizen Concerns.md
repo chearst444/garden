@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/johnson-city-issues-present-past-and-future/five-issues-current-and-near-future/data-center/angles/citizen-concerns/","dg-note-properties":{}}
 ---
 
-Reviewing the actual Johnson City Board of Commissioners records, planning panel minutes, and public hearing logs over the last two years reveals that industrial tech growth—specifically data center and cryptocurrency mining development—has become one of the most heavily debated topics in the city.  
+Reviewing the actual Johnson City Board of Commissioners records, planning panel minutes, and public hearing logs over the last two years reveals that industrial tech growth, specifically data center and cryptocurrency mining development, has become one of the most heavily debated topics in the city.  
 
 Public pushback has been intense, leading the Commission to enact an emergency 12-month moratorium on new industrial (I-2) permits, which was just officially extended to December 2026 so the city can finalize stricter zoning rules and wrap up an ongoing acoustic engineering study.  
 
@@ -29,7 +29,6 @@ The specific concerns stated on the record by community members during public co
  ==Distrust of Outdated Municipal Ordinances:==A recurring theme in the minutes is public frustration that the city's existing Title 11 noise ordinances are completely unequipped to handle modern, continuous technical noise. Citizens have demanded that the city stop relying on vague rules and instead establish hard decibel limits based on the findings of specialized acoustic engineering firms.
 --———————————————————————-
 
-
 A ==citizen portal==  a secure, centralized website or mobile application that allows residents to interact directly with their local, state, or federal government online.
 
 Instead of forcing you to go down to city hall, stand in lines, or call multiple departments, the portal acts as a digital front door for public services.
@@ -48,12 +47,6 @@ For a city leader or commissioner, a well-implemented citizen portal is a massiv
 
 -————————————————————
 
-I (Gemini) pulled these details from the public records of the Johnson City Board of Commissioners and the Johnson City Regional Planning Commission meetings over the last year, specifically tracking their updates on Ordinance No. 4914-25 and the subsequent temporary industrial moratoriums.  
-
-Because public meetings can be incredibly dense to sift through, I cross-reference the official minutes and local journalistic reporting via civic tracking platforms, which catalog exactly what citizens say on the record during public comment periods.
-
-If you want to read through the specific meetings, ordinances, and ongoing community action yourself, you can look directly at these sources:
-
  Citizen Portal (Johnson City Commission Archive): You can look at the complete AI-summarized breakdown of the official city commission text amendments and public hearings via [Citizen Portal's Johnson City Data Center Hearing Log](https://citizenportal.ai/articles/6239523/tennessee/washington-county/johnson-city/johnson-city-narrows-where-data-centers-can-locate-orders-acoustic-study-after-heated-opposition-to-crypto-mining).
 
  The Moratorium Extension Records: To see how the city planners and commissioners responded to these specific citizen complaints by extending the industrial permit pause to December, check out the [Citizen Portal I-2 Moratorium Extension Update](https://dev.citizenportal.ai/articles/8045521/tennessee/washington-county/johnson-city/johnson-city-extends-moratorium-on-new-i2-industrial-permits-to-finish-noise-zoning-rules).
@@ -61,13 +54,6 @@ If you want to read through the specific meetings, ordinances, and ongoing commu
  Local Advocacy Documentation: The Washington County Democratic Party compiled an extensive, formal list of the neighborhood's specific concerns regarding the Buffalo Mountain Industrial Park/Innovation Drive proposals, tracking the noise metrics and community pushback verbatim. You can read their full, detailed resolution on the [Washington County Democratic Party Local Resolutions Page](https://wctndp.org/wcdp-adopts-resolution-in-opposition-to-under-regulation-of-cryptocurrency-mining-facilities-in-johnson-city/).
 --——————————
 
-- OK, so the data is proposing. It’s been put on hold for the talk to talk about it that they put on hold till December. That’s on private property?
-
-Yes, the property at the center of the controversy is technically owned land, but the setup has a major public twist.
-
-The specific site that triggered this entire battle is a newly acquired parcel on Innovation Drive, located within the Buffalo Mountain Industrial Park.  
-
-Here is how the ownership dynamic works, and why it is causing such a massive headache for the city:
 
  Who owns it: The land was purchased by #BrightRidge, which is the local public power utility serving Johnson City and the surrounding area. Even though BrightRidge operates like a business, it is a publicly owned utility, not a completely private developer.  
 
