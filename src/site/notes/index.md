@@ -5,7 +5,7 @@
 
 # Welcome
 
-A data-driven civic repository for residents, municipal leaders, and residents.
+A data-driven civic repository for the community of Johnson City, Tennessee.
 
 ---
 
