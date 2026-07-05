@@ -46,7 +46,6 @@ A data-driven civic repository for the community of Johnson City, Tennessee.
     - Data Center
     - Denied, Delayed Centers
     - FOMO on an industrial scale
-    - Gemini as Advocate
     - The Water
     - Transmission Lines
     - Videos and notes
