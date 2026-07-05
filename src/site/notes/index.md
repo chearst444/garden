@@ -9,38 +9,83 @@ A data-driven civic repository for the community of Johnson City, Tennessee.
 
 ---
 
-### Johnson City Issues: Present, Past, and Future
+# * Johnson City Issues Present, Past, and Near Future
 
-#### Five Issues Current and near future
-* [[Adoption of the "Horizon 2045 Growth Plan"\|Adoption of the "Horizon 2045 Growth Plan"]]
-* [[* Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Data Center\|Data Center]]
-* [[Downtown Parking and Zoning Realities\|Downtown Parking and Zoning Realities]]
-* [[High-Density Development vs. Neighborhood Character\|High-Density Development vs. Neighborhood Character]]
-* [[The FY2027 Budget and the Aquatics Center\|The FY2027 Budget and the Aquatics Center]]
-* [[* Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Current & Near-Future\|Current & Near-Future]]
+- **Five Issues Current and near future**
+    - **Adoption of the "Horizon 2045 Growth Plan"**
+        - Horizon 2045
+    - **Data Center**
+        - **Angles**
+            - Citizen Concerns
+            - Planning Thoughts
+            - General 
+        - **BrightRidge**
+            - BrightRidge Limestone facility
+        - **Elsewhere General**
+            - * Erin Brokovich Data
+        - **Glossary**
+            - * Data Center
+            - Training
+    - **Johnson City**
+        - **Property**
+            - Location
+        - **Studies**
+            - JPM Acoustics
+            - JPM Acoustics engineering study...
+    - **Newest**
+        - **July**
+            - North Carolina
+        - Battle
+        - Battle Not Over
+        - High-stakes legislative battle over...
+        - Scissor Effect
+    - **YouTube vid. Sum.**
+        - What's inside an ai center
+    - Backing up
+    - Code HTML
+    - Data Center
+    - Denied, Delayed Centers
+    - FOMO on an industrial scale
+    - Gemini as Advocate
+    - The Water
+    - Transmission Lines
+    - Videos and notes
+    - **Downtown Parking and Zoning Realities**
+        - Downtown Parking and Zoning Realities
+    - **High-Density Development vs. Neighborhood Preservation**
+        - tension between High-Density Development...
+    - **The FY2027 Budget and the Aquatics Center**
+        - Aquatics Center
+        - The FY2027 Budget
+    - Current & Near-Future
 
-#### Five Issues Over Last Decade
-* [[Downtown Revitalization and Major Projects\|Downtown Revitalization and Major Projects]]
-* [[* Johnson City Issues Present, Past, and Future/Five Issues Over Last Decade/Outdoor Recreation and Tourism Infrastructureg/Outdoor Recreation and Tourism Infrastructure\|Outdoor Recreation and Tourism Infrastructure]]
-* [[Regional Healthcare Restructuring Impact\|Regional Healthcare Restructuring Impact]]
-* [[The Affordable Housing and Rental Market Crisis\|The Affordable Housing and Rental Market Crisis]]
-* [[The West Walnut Street Corridor Redevelopment\|The West Walnut Street Corridor Redevelopment]]
-* [[Top Issues Over the Last Decade 2015-2025\|Top Issues Over the Last Decade 2015-2025]]
+- **Five Issues Over Last Decade**
+    - **Downtown Revitalization and Major Flood Mitigation**
+        - Downtown
+    - **Outdoor Recreation and Tourism Infrastructure**
+        - Outdoor Recreation and Tourism Infrastructure
+    - **Regional Healthcare Restructuring and Ballad Health**
+        - Healthcare
+    - **The Affordable Housing and Rental Crisis**
+        - Affordable Housing and Rental Crisis...
+    - Top Issues Over the Last Decade 20...
 
-#### Things To Possibly Look Into
-* [[* Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transportation (Bus Service)\|Transportation (Bus Service)]]
+- **Things To Possibly Look Into**
+    - Transit Latent Demand
+    - Transportation (Bus Service)
 
----
+- **Johnson City General**
+    - **municipal or regional development issues**
+        - Government
+        - John Sevier Center
+    - General
 
-### Johnson City General
+- **Maps**
+    - Districts, Zones, Maps
 
-#### Municipal or regional development issues
-* [[Johnson City General/municipal or regional development issues./John Sevier Center\|John Sevier Center]]
-
----
-
-### Maps
-* [[Maps/Districts, Zones, Maps\|Districts, Zones, Maps]]
+- **Other**
+    - * Data Center Other and New
+    - Downtown Revitalization and Major Flood...
 
 ---
 
