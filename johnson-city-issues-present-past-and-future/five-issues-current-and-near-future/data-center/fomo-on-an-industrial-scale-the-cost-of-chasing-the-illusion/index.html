@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>FOMO on an Industrial Scale, The Cost of Chasing the Illusion</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script type="importmap">
+{
+  "imports": {
+    "d3-force": "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm",
+    "d3-selection": "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm",
+    "d3-zoom": "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm",
+    "d3-drag": "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0})</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.087d286e.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section no-filetree has-navbar">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Johnson City Civic Repository</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian print">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>&quot;FOMO on an industrial scale&quot; describes the frantic urge of cities rushing to build the next big technological frontier. Every time a major shift occurs—whether it is a banking revolution, a new energy source, or the frontier of artificial intelligence—a unique kind of hype machine takes over.</p>
+<p>When the crowd sprints toward a trend out of a terrifying fear of being left behind, they stop looking at the plumbing. They stop asking, &quot;How does this actually work?&quot; The following case studies trace this identical psychological trap across business, history, technology, and ancient texts.</p>
+<p>Case 1: The Modern Corporate Illusion (Theranos)</p>
+<p>On a business level, Elizabeth Holmes, the founder of Theranos, walked into Silicon Valley wearing Steve Jobs' exact black turtleneck outfit, flashing a brilliant smile, and promising a revolutionary machine that could run hundreds of medical tests from a single, painless prick of blood from a finger.</p>
+<p>The machine didn't work. It was a complete illusion. Yet billionaires, former secretaries of state, and major pharmacy chains poured nearly a billion dollars into her lap anyway. Why? Driven by the Fear Of Missing Out (FOMO), investors were terrified that if they didn't write her a check right that second, their competitors would pass them by.</p>
+<p>What is happening with the frantic rush to build AI data centers closely mirrors this psychological loop, just applied to concrete warehouses and electrical grids. The parallel between the two waves is uncanny:</p>
+<p>The Hype Machinery: With Theranos, Holmes used vague, dazzling tech jargon to convince people she was building the future. Today, tech conglomerates tell municipal leaders that if they don't approve a massive data center site immediately, their city will be &quot;left behind&quot;. Local governments, terrified of missing out on a new industrial tax base, rush to hand out massive zoning permits and tax breaks before they even understand the true infrastructure strain.</p>
+<p>Skipping Due Diligence: Investors fell for Theranos because they desperately wanted the myth to be true, skipping any verification of whether the technology actually functioned behind closed doors. Similarly, cities have rushed to approve tech campuses, only to realize after contracts are signed that the facilities require so much cooling water and high-voltage power that they risk destabilizing the local grid or driving up utility bills for everyday residents.</p>
+<p>The Sudden Reality Check: Just as investigative journalists pulled back the curtain on Theranos, communities are suddenly snapping out of the spell. The realization that these &quot;ghost factories&quot; swallow infinite resources while creating very few permanent, local jobs has triggered an immediate backlash. It is exactly why emergency moratoriums are being put up by various municipalities. They are realizing they were about to trade real-world landscapes and community resources for a high-tech promise that might never bear fruit.</p>
+<p>Case 2: The Ghost Country (The Poyais Scheme, 1820s)</p>
+<p>Gregor MacGregor was a Scottish soldier and adventurer who pulled off what historians call the Poyais Scheme in the early 1820s.</p>
+<p>At the time, the London stock market was experiencing a massive, frenzied boom. Several South American countries had recently won their independence from Spain, and British investors were desperate to get in on the ground floor of these new, resource-rich frontiers. People blindly poured millions into foreign bonds, terrified of missing out on the next big global empire.</p>
+<p>MacGregor arrived in London in 1821 claiming that an indigenous king in the Gulf of Honduras had granted him a massive chunk of land. He declared himself the sovereign prince, or &quot;Cazique&quot;, of a beautiful nation named Poyais. To stoke the FOMO, he drew up intricate maps, wrote a detailed 350-page guidebook, and published sketches of a capital city featuring European-style architecture, tree-lined boulevards, a grand opera house, and a bustling seaport. He claimed the soil could harvest corn three times a year, the rivers were lined with pure gold, and the local indigenous people were desperate to work with British settlers.</p>
+<p>Because the financial elite desperately wanted the next big colonial jackpot to be real, they completely skipped basic due diligence. MacGregor ran his &quot;ghost country&quot; exactly like a modern high-tech startup:</p>
+<p>He floated a massive loan of £200,000 (roughly $30+ million today) on the London Stock Exchange, backed entirely by the &quot;future tax revenues&quot; of Poyais. Investors snapped the bonds up instantly.</p>
+<p>He sold land certificates to regular doctors, lawyers, and shoemakers, convincing them to uproot their lives and move to paradise.</p>
+<p>He printed his own official paper currency, forcing settlers to exchange their real British coins for fictional Poyais banknotes before boarding.</p>
+<p>In late 1822 and 1823, two ships carrying about 250 hopeful British emigrants arrived at the coordinates. When they got off the boats, they found absolutely nothing but an untouched, inhospitable jungle on a desolate strip of the Mosquito Coast. They were completely stranded. By the time a rescue party arrived, more than half of the settlers had died from malaria, malnutrition, and exhaustion.</p>
+<p>The human psychology of the scam took a wild turn: even after news of the disaster reached London, some surviving victims publicly defended MacGregor, claiming the Prince was a good man who had simply been &quot;misled&quot; by his subordinates. The illusion was so powerful, and people had tied so much of their personal identity and money to it, that they literally could not accept they had been duped by a guy selling thin air. MacGregor quietly packed his bags, moved to Paris, and tried to sell the exact same fake country to French investors a few years later.</p>
+<p>Case 3: The Futuristic Hyperloop of the Victorian Era (1840s)</p>
+<p>During the &quot;Railway Mania&quot; of the 1840s in Great Britain, trains were the ultimate new technology, and thousands of miles of track were being approved by Parliament. Investors were absolutely terrified of missing out on the paradigm shift, paving the way for the &quot;Atmospheric Railway&quot; craze.</p>
+<p>Standard trains used heavy steam locomotives that struggled on steep hills and threw off thick soot. A group of engineers proposed a radical &quot;clean tech&quot; alternative: strip the heavy locomotive off the train entirely. Instead, lay a continuous cast-iron pipe between the tracks and use giant, coal-fired pumping stations along the route to suck the air out of the tube. This created a vacuum that pulled the train cars along at unprecedented speeds up to 40 or 50 miles per hour.</p>
+<p>Because it sounded incredibly futuristic, elite investors and municipalities threw millions of pounds at it. Prominent engineers, including the legendary Isambard Kingdom Brunel, staked their entire reputations on it, and lines were hastily constructed in South Devon, London, and Ireland.</p>
+<p>The technology, however, was fundamentally unworkable over long distances. To keep the vacuum sealed, the pipe required a continuous leather flap running along the top, sealed with a mixture of tallow (animal fat) and beeswax.</p>
+<p>In the summer heat, the fat melted, destroying the vacuum seal.</p>
+<p>In the winter, the leather froze solid, snapping like glass.</p>
+<p>To make matters worse, rats and mice found the greasy leather flaps absolutely delicious and literally ate the infrastructure, causing the vacuum to fail mid-journey.</p>
+<p>The lines were a total economic disaster and had to be ripped out and replaced with standard steam locomotives within a year or two. Investors lost everything because they fell in love with a sleek, futuristic concept and ignored the basic, messy realities of maintenance.</p>
+<p>Case 4: The Radioactive Frontier (1920s)</p>
+<p>The ultimate example of medical-industrial FOMO occurred in the 1920s when radiation was a brand-new, poorly understood scientific discovery. When Marie Curie discovered radium, the public was captivated by its magical, invisible energy, and entrepreneurs immediately weaponized the new scientific jargon.</p>
+<p>A charlatan named William J.A. Bailey (a Harvard dropout who faked a medical degree) created Radithor—a patent medicine consisting of certified triple-distilled water infused with real radium. Bailey marketed it as a premium, high-tech elixir, claiming its radioactive energy stimulated organs, cured exhaustion, and served as a miracle cure-all.</p>
+<p>Because it was expensive and represented the cutting-edge frontier of modern physics, high society fell for it completely. The most famous victim was Eben Byers, a wealthy industrialist and U.S. Amateur golf champion. Terrified of losing his competitive edge and youth, Byers drank two to three bottles of Radithor every single day for years. He recommended it to his friends and sent crates of it to business associates, raving about the &quot;energy surge&quot; it gave him.</p>
+<p>By 1930, the invisible physics caught up with the illusion. Radium deposits itself directly into the bones, continuously bombarding tissue with radiation. Byers’ teeth began to fall out, his bones splintered, and his entire lower jaw had to be surgically removed before he suffered a horrific, highly publicized death in 1932.</p>
+<p>The scandal shattered the &quot;radium health&quot; craze overnight, forcing the Federal Trade Commission to step in and shut down Bailey’s factory. It stands as a lethal warning that cutting-edge buzzwords do not prevent a product from being inherently destructive.</p>
+<p>Case 5: The Original Banking Revolution (Adele Spitzeder, 1869)</p>
+<p>Long before Charles Ponzi was born, an eccentric, charismatic German actress named Adele Spitzeder pulled off the first true mega-scale pyramid scheme in Munich. Spitzeder realized that regular, working-class people—farmers, maids, and small shopkeepers—felt completely ignored by the stuffy, traditional banking system.</p>
+<p>In 1869, she opened the Spitzedersche Privatbank and offered a jaw-dropping promise: 10% interest per month, paid entirely in cash, with absolutely zero questions asked. When asked how she generated those impossible returns, she gave vague, confident answers about &quot;shrewd investments&quot; and private real estate speculation.</p>
+<p>The FOMO spread like wildfire through the Bavarian countryside. When people saw their neighbors walking out of her bank with thick stacks of cash, common sense evaporated. Farmers sold multi-generational lands, communities pooled church funds, and people emptied their life savings just to get a piece of her returns.</p>
+<p>Spitzeder leaned heavily into the performance: she dressed simply, gave massive amounts of money to local charities, and bought up local newspapers to print glowing propaganda about how she was a &quot;woman of the people&quot; fighting against the greedy corporate financial elite. In reality, she wasn't investing a single cent; she was simply using the massive wave of cash brought in by new depositors to pay out the 10% interest to older ones.</p>
+<p>By 1872, the line of new depositors slowed down. A group of traditional banks banded together to trigger a run on her bank, demanding their money all at once. The bank collapsed instantly, triggering a massive economic crisis across Bavaria. Over 30,000 people were utterly ruined, local police departments were overwhelmed by a wave of suicides, and Spitzeder was arrested.</p>
+<p>Biblical Parallels and Ancient Realities</p>
+<p>If you look back into ancient texts, the Bible contains some of the most searing, timeless critiques of &quot;industrial-scale FOMO&quot; ever written. Human psychology remains entirely unchanged: when panic strikes, communities abandon common sense to sprint after an illusion.</p>
+<ol>
+<li>The Financial/Hype Collapse: The Golden Calf (Exodus 32)</li>
+</ol>
+<p>This narrative shows a community completely losing its collective mind due to a sudden panic and rushing to fund a shiny, useless illusion. When Moses is gone on Mount Sinai for 40 days, the people experience a massive crisis of uncertainty. Terrified of the wilderness, they demand a physical shortcut to security: &quot;Make us gods who shall go before us.&quot;</p>
+<p>The mechanics of how the Golden Calf is built mirror a speculative bubble perfectly:</p>
+<p>Mass Capital Pooling: Aaron tells everyone to rip off their gold earrings and bring them to him. This is a massive, collective sacrifice of the community's actual, tangible wealth.</p>
+<p>The Shiny Illusion: They melt down their real wealth to build a gleaming, beautifully crafted statue. It looks spectacular, and the crowd immediately throws a massive party around it, declaring, &quot;This is your god!&quot;</p>
+<p>The tragedy is the sheer absurdity of the object: they traded their actual heritage and security for a static chunk of metal that couldn't move, speak, or guide them. When Moses comes down the mountain, he shatters the illusion instantly by grinding the calf into powder, throwing it into the water, and forcing the people to drink their own ruined investment—the ancient blueprint for a town hall meeting after a tech promise completely collapses.</p>
+<ol start="2">
+<li>The Technological Hubris: The Tower of Babel (Genesis 11)</li>
+</ol>
+<p>Genesis 11 is the literal textbook example of a frantic, competitive rush to build sprawling infrastructure without considering long-term consequences. The people discover a brand-new technological advancement: kiln-fired bricks and bitumen mortar. This new technology allows them to build structures that are completely waterproof, highly durable, and capable of scaling to massive heights.</p>
+<p>Captivated by this new capability, they launch a project with an ambitious pitch: &quot;Come, let us build ourselves a city, and a tower whose top is in the heavens; let us make a name for ourselves.&quot;</p>
+<p>Chasing the Trend: They weren't building the tower because they logically needed a skyscraper to survive. They did it because the technology was suddenly available, and they wanted to show the world they were at the absolute cutting edge.</p>
+<p>Centralization &amp; Control: The text explicitly states they built it because they were terrified of being scattered over the face of the earth. They wanted to centralize all human power, language, and effort into one massive hub—the exact same &quot;we must build this giant processing hub right here, right now, or we will lose our place in the world&quot; narrative used by tech companies today.</p>
+<p>The project is halted not by a structural failure, but by a total breakdown of communication when their languages are confused, leaving behind a half-finished, useless monument to human pride.</p>
+<ol start="3">
+<li>The Ultimate Philosophical Reality Check: Ecclesiastes &amp; Job</li>
+</ol>
+<p>The tech sector is currently trying to build a digital version of omniscience, spending billions of dollars, carving up local landscapes, and straining electrical grids to feed a machine more words under the delusion that total information yields total control. The Old Testament drops an absolute hammer on this pursuit.</p>
+<p>In Isaiah 44, the prophet mocks the absurdity of the idol-making supply chain in a way that sounds identical to modern resource consumption: a man cuts down a tree, burns half of it to warm himself and bake bread, and fashions the remaining half into a god, praying, &quot;Deliver me, for you are my god!&quot; The point is pure common sense: a regular resource was taken, used for basic needs, and then the rest was bowed down to under the pretense that it has magical powers.</p>
+<p>Ecclesiastes anchors this with the concept of Hevel—translated as vanity, but Queensland meaning &quot;vapor&quot; or &quot;smoke.&quot; It is the perfect description of a machine burning finite, real-world energy just to generate a temporary puff of digital smoke: &quot;All was vapor and a chasing after the wind. There was no profit under the sun.&quot; (Ecclesiastes 2:11) When tech companies use FOMO to convince cities that the old rules don't apply, Ecclesiastes notes: &quot;There is nothing new under the sun.&quot; (Ecclesiastes 1:9)</p>
+<p>Finally, the Book of Job shatters human intellectual pride. After chapters of human experts analyzing data and looking for patterns, the text describes a reply out of the whirlwind, asking: &quot;Who is this that darkens counsel by words without knowledge?... Where were you when I laid the foundation of the earth?&quot; (Job 38:2-4) Job’s ultimate response is the exact posture the tech industry avoids: &quot;I have uttered what I did not understand, things too wonderful for me, which I did not know.&quot; (Job 42:3) True wisdom is found in recognizing the limits of human understanding, not in solving cosmic equations or gathering endless data dumps.</p>
+<p>The Takeaway: The Contentment of Stewardship vs. The Panic of the World</p>
+<p>The argument for protecting a community from this frantic stampede of temporary economic hype is rooted in stewardship, neighborly love, and contentment.</p>
+<ol>
+<li>
+<p>The Stewardship of Due Diligence: Technology isn’t inherently evil, but sprinting blindly after a paycheck without looking at what it destroys is bad stewardship. Every piece of creation—the landscapes, the rivers, the quiet countryside—has inherent value. Slowing down to look at how an industrial facility affects the neighbors' peace, the local water supply, or the landscape is the literal definition of loving a neighbor and stewarding the land.</p>
+</li>
+<li>
+<p>The Illusion of Forced Timelines: Industrial FOMO relies on a lie: If you don't jump on this train right now, you will be left behind. It is the exact same fear that drove the Israelites to build the Golden Calf out of panic. If a community misses a big industrial wave, the sun still rises over the mountains, the air remains clear, and the beauty of the landscape remains entirely intact.</p>
+</li>
+<li>
+<p>Choosing the Quiet Life: The text of 1 Thessalonians 4:11 outlines a clear standard: &quot;Make it your ambition to lead a quiet life: You should mind your own business and work with your hands...&quot; A community's success shouldn't be measured by how many megawatts of electricity it burns or how many servers it houses. It should be measured by whether it is a place where families can live, breathe, be at peace, and clearly exist without the constant, deafening hum of an industrial infrastructure facility in their backyard.</p>
+</li>
+</ol>
+<p>Critical Metrics for Investigation</p>
+<p>When evaluating these proposed projects, three primary real-world strains must be measured:</p>
+<p>The Sound Footprint (The Quality of Life Squeeze): Many towns discover too late that the unrelenting, multi-mile drone of industrial cooling fans destroys residential property values and ruins the peace of rural neighborhoods.</p>
+<p>The Water Drain (The Resource Strain): Data centers require millions of gallons of water a day to keep their chips cool. In several grid-strained or drought-prone areas, tech companies end up competing directly with local infrastructure and residential wells for the local water supply.</p>
+<p>The Electrical Rate Hike (The Cost to Everyday People): When a utility company has to build millions of dollars in new transmission lines to feed a data center, those infrastructure costs often get quietly distributed across the monthly bills of everyday residential ratepayers.</p>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+<script>document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".obsidian-bases-views").forEach((function(e){var t=e.querySelector(".obsidian-bases-active-view"),a=e.querySelector(".obsidian-bases-dropdown"),i=e.querySelectorAll(".obsidian-bases-dropdown-item"),n=e.querySelectorAll(".obsidian-bases-view-panel"),o=e.querySelector(".obsidian-bases-active-view-name"),r=e.querySelector(".obsidian-bases-count-value");t&&a&&(t.addEventListener("click",(function(e){e.stopPropagation();var i="none"!==a.style.display;a.style.display=i?"none":"block",t.setAttribute("aria-expanded",!i)})),document.addEventListener("click",(function(){a.style.display="none",t.setAttribute("aria-expanded","false")})),i.forEach((function(s){s.addEventListener("click",(function(s){s.stopPropagation();var d=this.getAttribute("data-view-index");i.forEach((function(e){e.classList.remove("active")})),this.classList.add("active"),n.forEach((function(e){e.style.display="none"}));var l=e.querySelector('.obsidian-bases-view-panel[data-view-index="'+d+'"]');l&&(l.style.display="block");var c=this.querySelector(".obsidian-bases-view-icon"),u=t.querySelector(".obsidian-bases-view-icon");if(c&&u&&u.replaceWith(c.cloneNode(!0)),o&&(o.textContent=this.textContent.trim()),r&&l){var b=l.querySelectorAll("tbody tr:not(.obsidian-base-group-row), .obsidian-base-card, .obsidian-base-list li");r.textContent=b.length}a.style.display="none",t.setAttribute("aria-expanded","false")}))})))})),document.querySelectorAll(".bases-dynamic-date").forEach((function(e){var t=e.getAttribute("data-type"),a=new Date;if("today"===t){var i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o}else if("now"===t){i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");var r=String(a.getHours()).padStart(2,"0"),s=String(a.getMinutes()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o+" "+r+":"+s}}))}))</script>
+</body>
+</html>
