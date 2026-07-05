@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>High-stakes legislative battle over how—and where—artificial intelligence data centers can operate.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script type="importmap">
+{
+  "imports": {
+    "d3-force": "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm",
+    "d3-selection": "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm",
+    "d3-zoom": "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm",
+    "d3-drag": "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0})</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.087d286e.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section no-filetree has-navbar">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Johnson City Civic Repository</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian print">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>In <strong>Johnson City, Tennessee</strong>, the intersection of a rapidly expanding tech economy, citizen activism, and regional climate pressures is shaping a highly contested local future. As the city navigates the post-pandemic migration boom to East Tennessee, its immediate trajectory is being defined by a high-stakes legislative battle over how—and where—artificial intelligence data centers can operate.</p>
+<p>The possible future of Johnson City is manifesting across several key operational fronts:</p>
+<p>⚖️ The Battle Over Data Center Zoning (2026 Status)</p>
+<p>Johnson City has become a regional focal point for community resistance against unchecked tech infrastructure.</p>
+<ul>
+<li><strong>The 200-Foot Setback Debate:</strong> In June 2026, the Johnson City Regional Planning Commission voted 4-2 to approve a controversial amendment requiring a <strong>200-foot buffer between data center property lines and residential zones</strong>. Local activist groups are strongly pushing back, arguing that 200 feet is completely insufficient to protect homes from continuous server hum and cooling-tower vibrations. [<a href="https://www.wjhl.com/news/local/johnson-city-regional-planning-commission-approves-data-center-amendment-state-of-franklin-parking-proposal/" target="_blank" class="external-link">1</a>, <a href="https://johnsoncitypress.com/news/377137/jc-residents-want-more-answers-on-data-center-zoning-code-updates/" target="_blank" class="external-link">2</a>]</li>
+<li><strong>Moratoriums and Noise Control:</strong> The city recently secured a multi-month extension on an industrial moratorium to process data from a localized noise and vibration study conducted by JPM Acoustical Engineering Services. The ultimate future of the city's landscape depends on whether the full City Commission upholds these developer-friendly 200-foot rules or bows to citizen pressure for stricter 500-to-1,000-foot exclusions. [<a href="https://www.facebook.com/news5wcyb/posts/just-in-johnson-city-planning-commission-approves-data-center-zoning-rules-in-4-/1514804664009370/" target="_blank" class="external-link">1</a>, <a href="https://wcyb.com/news/local/johnson-city-hires-company-to-conduct-study-on-the-effects-of-data-center" target="_blank" class="external-link">2</a>, <a href="https://johnsoncitypress.com/news/376490/breaking-down-johnson-citys-proposed-zoning-updates-for-data-centers/" target="_blank" class="external-link">3</a>, <a href="https://wcyb.com/news/local/johnson-city-planning-commissioners-approve-new-data-center-rules" target="_blank" class="external-link">4</a>]</li>
+<li><strong>Annual Performance Reviews:</strong> To prevent another situation like the famously disruptive, multi-year Bitcoin mining operations in neighboring rural Washington County, Johnson City's proposed rules mandate that any operating data center must face an <strong>annual review before the Board of Zoning Appeals</strong>. This future framework means neighbors will be formally invited every year to log noise or environmental complaints before a facility's permit is renewed. [<a href="https://wcyb.com/news/local/johnson-city-planning-commissioners-approve-new-data-center-rules" target="_blank" class="external-link">1</a>]</li>
+</ul>
+<p>⚡ The TVA Energy Bottleneck</p>
+<p>Because Johnson City relies on the <strong>Tennessee Valley Authority (TVA)</strong> for its power, its local grid future is tied to sweeping regional energy shifts. [<a href="https://law.vanderbilt.edu/tva-preparing-for-more-extreme-weather/" target="_blank" class="external-link">1</a>, <a href="https://johnsoncitypress.com/news/378933/tva-releases-initial-plan-to-meet-growing-electricity-demand/" target="_blank" class="external-link">2</a>]</p>
+<ul>
+<li><strong>Doubling Demand:</strong> Driven squarely by population growth and data centers, the TVA explicitly projects that data center electricity consumption across its territory will <strong>double by 2030</strong>. [<a href="https://www.facebook.com/news5wcyb/posts/the-tennessee-valley-authority-is-asking-for-your-input-on-a-new-long-range-plan/1534674725355697/" target="_blank" class="external-link">1</a>, <a href="https://johnsoncitypress.com/news/378933/tva-releases-initial-plan-to-meet-growing-electricity-demand/" target="_blank" class="external-link">2</a>]</li>
+<li><strong>Slowing the Fossil Fuel Phase-Out:</strong> In its mid-2026 Integrated Resource Plan, the TVA noted that Tennessee temperatures are currently rising at <strong>double the global average rate</strong>. To cope with the dual threat of severe summer heatwaves and extreme winter load spikes (like Winter Storm Elliott), the TVA has proposed slowing down its scheduled retirement of coal plants and building out new natural gas infrastructure to ensure the grid does not collapse. For Johnson City residents, this means a future with potentially higher environmental pollution trade-offs to keep the lights on. [<a href="https://law.vanderbilt.edu/tva-preparing-for-more-extreme-weather/" target="_blank" class="external-link">1</a>, <a href="https://wcyb.com/news/local/tva-seeks-comment-on-electric-generation-plan-amid-population-data-center-growth" target="_blank" class="external-link">2</a>]</li>
+</ul>
+<p>📉 Economic and Quality of Life Trade-Offs</p>
+<p>The commercial influx is driving a stark divide in how the city's future standard of living is viewed:</p>
+<ul>
+<li><strong>The Optimistic View:</strong> Proponents and city planners view data centers as steady, low-impact anchors for Johnson City’s industrial zones. They provide predictable municipal tax revenue without adding thousands of vehicles to local commuter traffic, helping fund public infrastructure like schools and parks without overloading roads. [<a href="https://www.johnsoncitytn.org/business/planning/plans_and_studies/noise_and_vibration_study.php" target="_blank" class="external-link">1</a>, <a href="https://www.facebook.com/news5wcyb/posts/johnson-citys-planning-commission-is-set-to-take-its-first-vote-tuesday-night-on/1513750900781413/" target="_blank" class="external-link">2</a>]</li>
+<li><strong>The Critical View:</strong> Opponents point out that data centers create very few permanent, high-paying local jobs once construction concludes. Furthermore, a newly enacted Tennessee state law mandates that <strong>data center operators must absorb 100% of their own electricity and infrastructure costs</strong>, a protective measure designed to prevent tech corporations from shifting grid expansion bills onto local residential rate-payers. [<a href="https://www.reddit.com/r/JohnsonCity/comments/1rxehkj/johnson_city_hires_company_to_conduct_impact/" target="_blank" class="external-link">1</a>]</li>
+</ul>
+<hr>
+<p>🔍 Deep Dive: Johnson City Data Center Rules</p>
+<p>The following visualization maps out how Johnson City's contested June 2026 zoning framework attempts to separate industrial server complexes from local neighborhoods. [<a href="https://wcyb.com/news/local/is-200-feet-enough-some-johnson-city-residents-worry-about-data-center-rules" target="_blank" class="external-link">1</a>]</p>
+<pre><code>[ RESIDENTIAL PROPERTY ]
+       │
+       ▼  (Property Line)
+       ├───────────────────────────────────────────────┤ ◄── Residents want this expanded
+       │  200-Foot Minimum Buffer Zone                 │     to 500+ feet to block 
+       │  (No data center operations allowed)          │     continuous server noise.
+       ├───────────────────────────────────────────────┤
+       ▼  (Data Center Property Line)
+       │  50-60 Ft. Building Setback Area              │
+       ├───────────────────────────────────────────────┤
+       ▼  [ ACTUAL DATA CENTER / SE
+</code></pre>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+<script>document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".obsidian-bases-views").forEach((function(e){var t=e.querySelector(".obsidian-bases-active-view"),a=e.querySelector(".obsidian-bases-dropdown"),i=e.querySelectorAll(".obsidian-bases-dropdown-item"),n=e.querySelectorAll(".obsidian-bases-view-panel"),o=e.querySelector(".obsidian-bases-active-view-name"),r=e.querySelector(".obsidian-bases-count-value");t&&a&&(t.addEventListener("click",(function(e){e.stopPropagation();var i="none"!==a.style.display;a.style.display=i?"none":"block",t.setAttribute("aria-expanded",!i)})),document.addEventListener("click",(function(){a.style.display="none",t.setAttribute("aria-expanded","false")})),i.forEach((function(s){s.addEventListener("click",(function(s){s.stopPropagation();var d=this.getAttribute("data-view-index");i.forEach((function(e){e.classList.remove("active")})),this.classList.add("active"),n.forEach((function(e){e.style.display="none"}));var l=e.querySelector('.obsidian-bases-view-panel[data-view-index="'+d+'"]');l&&(l.style.display="block");var c=this.querySelector(".obsidian-bases-view-icon"),u=t.querySelector(".obsidian-bases-view-icon");if(c&&u&&u.replaceWith(c.cloneNode(!0)),o&&(o.textContent=this.textContent.trim()),r&&l){var b=l.querySelectorAll("tbody tr:not(.obsidian-base-group-row), .obsidian-base-card, .obsidian-base-list li");r.textContent=b.length}a.style.display="none",t.setAttribute("aria-expanded","false")}))})))})),document.querySelectorAll(".bases-dynamic-date").forEach((function(e){var t=e.getAttribute("data-type"),a=new Date;if("today"===t){var i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o}else if("now"===t){i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");var r=String(a.getHours()).padStart(2,"0"),s=String(a.getMinutes()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o+" "+r+":"+s}}))}))</script>
+</body>
+</html>
