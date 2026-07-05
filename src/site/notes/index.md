@@ -12,8 +12,8 @@ A data-driven civic repository for the community of Johnson City, Tennessee.
 #  Johnson City Issues Present, Past, and Near Future
 
 - **Five Issues Current and near future**
-    - **Adoption of the "Horizon 2045 Growth Plan"**
-        - Horizon 2045
+    - Horizon 2045
+    - **Adoption of the "Horizon 2045 
     - **Data Center**
         - **Angles**
             - Citizen Concerns
