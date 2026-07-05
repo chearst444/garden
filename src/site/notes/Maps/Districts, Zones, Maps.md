@@ -8,7 +8,6 @@
 ## The Johnson City School Zones:
 Because the city operates its own independent school district separate from the county, the map is broken down by individual elementary school zones (like South Side, Mountain View, and Towne Acres).  
 
-
 ## The Official Mapping Hub: 
 To explore property boundaries, zoning layers, and neighborhood designations, check out the [Johnson City GIS Map Gallery](https://www.johnsoncitytn.org/departments/information_technology/gis/map_gallery.php).
 
