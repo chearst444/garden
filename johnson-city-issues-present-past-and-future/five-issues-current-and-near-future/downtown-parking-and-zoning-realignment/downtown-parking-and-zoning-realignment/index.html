@@ -2,20 +2,30 @@
 <html lang="en">
 <head>
 <title>Downtown Parking and Zoning Realignment</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script type="importmap">
+{
+  "imports": {
+    "d3-force": "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm",
+    "d3-selection": "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm",
+    "d3-zoom": "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm",
+    "d3-drag": "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0})</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
-<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
-<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
-<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
 <script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
-<link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/obsidian-base.css" rel="stylesheet">
 <link href="/styles/_theme.1d31b6dd.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -23,7 +33,7 @@
 <link rel="manifest" href="/manifest.webmanifest">
 <style></style>
 </head>
-<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section no-filetree has-navbar">
 <nav class="navbar">
 <div class="navbar-inner">
 <a href="/" style="text-decoration:none">
@@ -31,33 +41,35 @@
 </a>
 </div>
 </nav>
-<main class="content cm-s-obsidian">
+<main class="content cm-s-obsidian print">
 <header>
 <div class="header-meta">
 </div>
 </header>
-<p>The Downtown Parking and Zoning Realignment is a direct response to a major modern hurdle: Johnson City's downtown and surrounding historic corridors were built over a century ago with zero-lot lines, meaning buildings sit edge-to-edge right up to the sidewalk.  </p>
+<p>The Downtown Parking and Zoning Realignment is a direct response to a major modern hurdle: Johnson City's downtown and surrounding historic corridors were built over a century ago with zero-lot lines, meaning buildings sit edge-to-edge right up to the sidewalk.</p>
 <p>Because the city's legacy zoning laws forced developers and property owners to provide a strict, mandatory number of on-site parking spots for any new project or expansion, a lot of prime historic real estate became legally impossible to redevelop.</p>
 <p>To fix this, the city is currently running a two-pronged strategy: shifting the actual legal zoning text amendments, and physically reshaping local roadways to carve out massive public parking.</p>
 <ol>
 <li>The Zoning Text Realignment (Ordinance 4947-26)</li>
 </ol>
-<p>In mid-2026, the City Commission and Regional Planning Commission began moving forward with an overhaul targeting two critical, booming development zones: the B3 (Regional Commercial) District and the West Walnut Street Corridor District.  </p>
-<p> The Problem: The catalyst for this change actually came from Christ Community Church. The church wanted to execute a major downtown expansion, but under the old rules, they couldn’t legally proceed because it was impossible to buy up enough surrounding zero-lot-line land to build the massive, mandatory asphalt parking lots required by city code.  </p>
-<p> The Fix for Non-Residential Uses: The new ordinance aligns the B3 and West Walnut districts with the standard B2 (Central Business) District rules, which means it completely eliminates parking minimums for non-residential uses (excluding hotels and bed-and-breakfasts). This immediately unlocks older, historic properties for expansion, retail, and adaptive reuse because owners no longer have to build on-site parking spaces.  </p>
-<p> The Residential Debate: While eliminating parking minimums for businesses was widely supported, reducing them for residential projects caused friction. The city proposed lowering mandatory minimums to just 1 space per unit for single/two-family homes and a mere 0.5 spaces per unit for multi-family complexes. Fearing that residents would flood nearby street parking, the Planning Commission ultimately deferred the residential portion of the rule for further workshops and study. The city is also considering a &quot;fee in lieu&quot; program, where developers can pay into a city fund instead of building parking, with that money directly bankrolling future municipal public parking structures.  </p>
+<p>In mid-2026, the City Commission and Regional Planning Commission began moving forward with an overhaul targeting two critical, booming development zones: the B3 (Regional Commercial) District and the West Walnut Street Corridor District.</p>
+<p>The Problem: The catalyst for this change actually came from Christ Community Church. The church wanted to execute a major downtown expansion, but under the old rules, they couldn’t legally proceed because it was impossible to buy up enough surrounding zero-lot-line land to build the massive, mandatory asphalt parking lots required by city code.</p>
+<p>The Fix for Non-Residential Uses: The new ordinance aligns the B3 and West Walnut districts with the standard B2 (Central Business) District rules, which means it completely eliminates parking minimums for non-residential uses (excluding hotels and bed-and-breakfasts). This immediately unlocks older, historic properties for expansion, retail, and adaptive reuse because owners no longer have to build on-site parking spaces.</p>
+<p>The Residential Debate: While eliminating parking minimums for businesses was widely supported, reducing them for residential projects caused friction. The city proposed lowering mandatory minimums to just 1 space per unit for single/two-family homes and a mere 0.5 spaces per unit for multi-family complexes. Fearing that residents would flood nearby street parking, the Planning Commission ultimately deferred the residential portion of the rule for further workshops and study. The city is also considering a &quot;fee in lieu&quot; program, where developers can pay into a city fund instead of building parking, with that money directly bankrolling future municipal public parking structures.</p>
 <ol start="2">
 <li>Roadway Restructuring &amp; The State of Franklin Project</li>
 </ol>
 <p>Because the city is taking the burden of parking off individual property owners, the city itself has had to step up to build public infrastructure to catch the vehicles. This has resulted in major physical changes to the downtown traffic flow:</p>
-<p> The State of Franklin Lane Elimination: The city launched a major Public Works initiative to permanently alter West State of Franklin Road between Spring Street and Colonial Way. Crews eliminated the two westbound traffic lanes completely, converting that asphalt into a massive bank of 26 to 28 on-street parking spaces separated from the active travel lanes by a new median.  </p>
-<p> Traffic Calming: Simultaneously, the eastbound lanes of West State of Franklin Road between Buffalo Street and South Roan Street were reduced to one lane of traffic in each direction. This acts as a deliberate &quot;traffic calming&quot; measure to slow down vehicles entering the dense, walkable downtown core.  </p>
-<p> Unlocking the Downtown Centre Garage: To immediately alleviate the evening and weekend parking crunch, the city partnered with the Johnson City Development Authority to open up the massive Downtown Centre Parking Garage (located at Buffalo and East Market streets) for free public use. The deck is now wide open on Fridays from 5:00 PM to midnight and Saturdays from noon to midnight, suddenly injecting over 300 parking spots right into the heart of the downtown nightlife scene.  </p>
+<p>The State of Franklin Lane Elimination: The city launched a major Public Works initiative to permanently alter West State of Franklin Road between Spring Street and Colonial Way. Crews eliminated the two westbound traffic lanes completely, converting that asphalt into a massive bank of 26 to 28 on-street parking spaces separated from the active travel lanes by a new median.</p>
+<p>Traffic Calming: Simultaneously, the eastbound lanes of West State of Franklin Road between Buffalo Street and South Roan Street were reduced to one lane of traffic in each direction. This acts as a deliberate &quot;traffic calming&quot; measure to slow down vehicles entering the dense, walkable downtown core.</p>
+<p>Unlocking the Downtown Centre Garage: To immediately alleviate the evening and weekend parking crunch, the city partnered with the Johnson City Development Authority to open up the massive Downtown Centre Parking Garage (located at Buffalo and East Market streets) for free public use. The deck is now wide open on Fridays from 5:00 PM to midnight and Saturdays from noon to midnight, suddenly injecting over 300 parking spots right into the heart of the downtown nightlife scene.</p>
 <p>By updating the zoning text to protect zero-lot-line developments and converting wide, fast-moving downtown streets into angled parking and single travel lanes, Johnson City is pushing heavily to transition its urban center away from mid-century car dependencies and toward a denser, highly walkable city core.</p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
 <script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
-<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+<script>document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".obsidian-bases-views").forEach((function(e){var t=e.querySelector(".obsidian-bases-active-view"),a=e.querySelector(".obsidian-bases-dropdown"),i=e.querySelectorAll(".obsidian-bases-dropdown-item"),n=e.querySelectorAll(".obsidian-bases-view-panel"),o=e.querySelector(".obsidian-bases-active-view-name"),r=e.querySelector(".obsidian-bases-count-value");t&&a&&(t.addEventListener("click",(function(e){e.stopPropagation();var i="none"!==a.style.display;a.style.display=i?"none":"block",t.setAttribute("aria-expanded",!i)})),document.addEventListener("click",(function(){a.style.display="none",t.setAttribute("aria-expanded","false")})),i.forEach((function(s){s.addEventListener("click",(function(s){s.stopPropagation();var d=this.getAttribute("data-view-index");i.forEach((function(e){e.classList.remove("active")})),this.classList.add("active"),n.forEach((function(e){e.style.display="none"}));var l=e.querySelector('.obsidian-bases-view-panel[data-view-index="'+d+'"]');l&&(l.style.display="block");var c=this.querySelector(".obsidian-bases-view-icon"),u=t.querySelector(".obsidian-bases-view-icon");if(c&&u&&u.replaceWith(c.cloneNode(!0)),o&&(o.textContent=this.textContent.trim()),r&&l){var b=l.querySelectorAll("tbody tr:not(.obsidian-base-group-row), .obsidian-base-card, .obsidian-base-list li");r.textContent=b.length}a.style.display="none",t.setAttribute("aria-expanded","false")}))})))})),document.querySelectorAll(".bases-dynamic-date").forEach((function(e){var t=e.getAttribute("data-type"),a=new Date;if("today"===t){var i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o}else if("now"===t){i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");var r=String(a.getHours()).padStart(2,"0"),s=String(a.getMinutes()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o+" "+r+":"+s}}))}))</script>
 </body>
 </html>

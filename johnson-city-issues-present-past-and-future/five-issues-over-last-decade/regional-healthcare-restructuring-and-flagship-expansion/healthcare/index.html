@@ -2,20 +2,30 @@
 <html lang="en">
 <head>
 <title>Healthcare</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script type="importmap">
+{
+  "imports": {
+    "d3-force": "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm",
+    "d3-selection": "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm",
+    "d3-zoom": "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm",
+    "d3-drag": "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0})</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
-<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
-<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
-<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
 <script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
-<link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/obsidian-base.css" rel="stylesheet">
 <link href="/styles/_theme.1d31b6dd.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -23,7 +33,7 @@
 <link rel="manifest" href="/manifest.webmanifest">
 <style></style>
 </head>
-<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section no-filetree has-navbar">
 <nav class="navbar">
 <div class="navbar-inner">
 <a href="/" style="text-decoration:none">
@@ -31,37 +41,39 @@
 </a>
 </div>
 </nav>
-<main class="content cm-s-obsidian">
+<main class="content cm-s-obsidian print">
 <header>
 <div class="header-meta">
 </div>
 </header>
 <p>The landscape of regional healthcare in Johnson City is tied directly to the 2018 merger of Mountain States Health Alliance and Wellmont Health System, which created Ballad Health. Operating under a unique state-supervised monopoly known as a Certificate of Public Advantage (COPA), this restructuring made Johnson City the epicenter of a massive, 29-county medical network covering Northeast Tennessee, Southwest Virginia, Western North Carolina, and parts of Kentucky.</p>
-<p>As the flagship of this system, Johnson City Medical Center (JCMC) serves as the region’s primary Level 1 Trauma Center. Over the last decade, navigating systemic shifts in rural healthcare access has forced Ballad to heavily centralize and expand its high-acuity operations right here in town.  </p>
+<p>As the flagship of this system, Johnson City Medical Center (JCMC) serves as the region’s primary Level 1 Trauma Center. Over the last decade, navigating systemic shifts in rural healthcare access has forced Ballad to heavily centralize and expand its high-acuity operations right here in town.</p>
 <ol>
 <li>The $72 Million Emergency Department Expansion</li>
 </ol>
 <p>The most critical physical manifestation of this strategy is the massive, multi-phase $72 million emergency department and trauma center expansion at <a class="tag" onclick="toggleTagSearch(this)" data-content="#JCMC">#JCMC</a>.</p>
-<p>The expansion is a direct response to a major bottleneck: the hospital simply outgrew its physical footprint. As smaller rural emergency rooms across the Appalachian Highlands face resource strains, patients are increasingly routed to Johnson City for critical care.  </p>
-<p> The Blueprint: The project will add 13,000 square feet to the existing facility, scaling the adult emergency department up to 50,000 square feet.  </p>
-<p> Capacity Increase: Adult patient rooms will jump from 36 to 55, and the hospital is adding two state-of-the-art trauma rooms to handle incoming air-ambulance and high-acuity cases.  </p>
-<p> The Phased Timeline:</p>
-<p> Phase 1: Heavy sitework, utility adjustments, and parking lot reconfigurations along Vonderfecht Way.  </p>
-<p> Phase 2 (Late 2026): Shifting internal patient and visitor traffic flows to allow structural construction.  </p>
-<p> Phase 3 (2027): Finalizing the interior clinical spaces with an expected completion date aiming for 2027-2028.  </p>
+<p>The expansion is a direct response to a major bottleneck: the hospital simply outgrew its physical footprint. As smaller rural emergency rooms across the Appalachian Highlands face resource strains, patients are increasingly routed to Johnson City for critical care.</p>
+<p>The Blueprint: The project will add 13,000 square feet to the existing facility, scaling the adult emergency department up to 50,000 square feet.</p>
+<p>Capacity Increase: Adult patient rooms will jump from 36 to 55, and the hospital is adding two state-of-the-art trauma rooms to handle incoming air-ambulance and high-acuity cases.</p>
+<p>The Phased Timeline:</p>
+<p>Phase 1: Heavy sitework, utility adjustments, and parking lot reconfigurations along Vonderfecht Way.</p>
+<p>Phase 2 (Late 2026): Shifting internal patient and visitor traffic flows to allow structural construction.</p>
+<p>Phase 3 (2027): Finalizing the interior clinical spaces with an expected completion date aiming for 2027-2028.</p>
 <ol start="2">
 <li>The Trauma Consolidation Strategy</li>
 </ol>
-<p>Ballad's decision to concentrate heavy trauma resources at JCMC has been a core point of regional debate for years, but the health system points to peer-reviewed data to back up the centralization. An internationally published study tracking the merger's impacts found that consolidating regional trauma care into a singular, highly coordinated network led to a 24% reduction in trauma mortality and a 28% drop in the need for post-acute institutional care across the region.  </p>
+<p>Ballad's decision to concentrate heavy trauma resources at JCMC has been a core point of regional debate for years, but the health system points to peer-reviewed data to back up the centralization. An internationally published study tracking the merger's impacts found that consolidating regional trauma care into a singular, highly coordinated network led to a 24% reduction in trauma mortality and a 28% drop in the need for post-acute institutional care across the region.</p>
 <ol start="3">
 <li>Simultaneous Campus Expansions</li>
 </ol>
-<p>The emergency department project sits alongside a broader capital push on the JCMC campus. This includes the recent completion of a $60 million, two-story vertical expansion of <a class="tag" onclick="toggleTagSearch(this)" data-content="#Niswonger">#Niswonger</a> Children’s Hospital. The addition brought the newest Neonatal Intensive Care Unit (NICU) to the region, featuring all private rooms and advanced pediatric technology to match the growing regional footprint.  </p>
+<p>The emergency department project sits alongside a broader capital push on the JCMC campus. This includes the recent completion of a $60 million, two-story vertical expansion of <a class="tag" onclick="toggleTagSearch(this)" data-content="#Niswonger">#Niswonger</a> Children’s Hospital. The addition brought the newest Neonatal Intensive Care Unit (NICU) to the region, featuring all private rooms and advanced pediatric technology to match the growing regional footprint.</p>
 <p>By pairing these massive campus expansions with neighboring projects like the 20-bed expansion at Franklin Woods Community Hospital, Johnson City has locked in its status as the absolute medical anchor for the multi-state region. However, it also means local residents have to continuously adapt to major construction corridors, traffic rerouting, and evolving patient-flow patterns right in the middle of the city's primary medical district.</p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
 <script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
-<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+<script>document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".obsidian-bases-views").forEach((function(e){var t=e.querySelector(".obsidian-bases-active-view"),a=e.querySelector(".obsidian-bases-dropdown"),i=e.querySelectorAll(".obsidian-bases-dropdown-item"),n=e.querySelectorAll(".obsidian-bases-view-panel"),o=e.querySelector(".obsidian-bases-active-view-name"),r=e.querySelector(".obsidian-bases-count-value");t&&a&&(t.addEventListener("click",(function(e){e.stopPropagation();var i="none"!==a.style.display;a.style.display=i?"none":"block",t.setAttribute("aria-expanded",!i)})),document.addEventListener("click",(function(){a.style.display="none",t.setAttribute("aria-expanded","false")})),i.forEach((function(s){s.addEventListener("click",(function(s){s.stopPropagation();var d=this.getAttribute("data-view-index");i.forEach((function(e){e.classList.remove("active")})),this.classList.add("active"),n.forEach((function(e){e.style.display="none"}));var l=e.querySelector('.obsidian-bases-view-panel[data-view-index="'+d+'"]');l&&(l.style.display="block");var c=this.querySelector(".obsidian-bases-view-icon"),u=t.querySelector(".obsidian-bases-view-icon");if(c&&u&&u.replaceWith(c.cloneNode(!0)),o&&(o.textContent=this.textContent.trim()),r&&l){var b=l.querySelectorAll("tbody tr:not(.obsidian-base-group-row), .obsidian-base-card, .obsidian-base-list li");r.textContent=b.length}a.style.display="none",t.setAttribute("aria-expanded","false")}))})))})),document.querySelectorAll(".bases-dynamic-date").forEach((function(e){var t=e.getAttribute("data-type"),a=new Date;if("today"===t){var i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o}else if("now"===t){i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");var r=String(a.getHours()).padStart(2,"0"),s=String(a.getMinutes()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o+" "+r+":"+s}}))}))</script>
 </body>
 </html>
