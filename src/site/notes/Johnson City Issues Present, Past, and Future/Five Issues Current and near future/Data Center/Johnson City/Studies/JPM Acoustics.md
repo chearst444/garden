@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/johnson-city-issues-present-past-and-future/five-issues-current-and-near-future/data-center/johnson-city/studies/jpm-acoustics/","dg-note-properties":{}}
 ---
 
-When you dig into JPM Acoustics, you find that they aren't just local building inspectors or generic sound technicians—they are a highly specialized acoustical engineering and environmental compliance firm.
+ DChen you dig into JPM Acoustics, you find that they aren't just local building inspectors or generic sound technicians—they are a highly specialized acoustical engineering and environmental compliance firm.
 
 The firm handles world-class architectural and environmental noise control projects, and they are brought in by municipalities specifically when a situation has escalated to a serious point of regulatory or legal crisis.
 
