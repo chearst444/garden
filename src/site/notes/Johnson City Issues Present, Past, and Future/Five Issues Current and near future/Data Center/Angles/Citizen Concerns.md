@@ -27,7 +27,7 @@ The specific concerns stated on the record by community members during public co
  ==Straining the Local Utilities Grid:== Given the immense electricity demands of data facilities, citizens have questioned whether local power providers (like BrightRidge) will face strained capacity, potentially impacting grid reliability or forcing residential utility rate hikes down the road.
 
  ==Distrust of Outdated Municipal Ordinances:==A recurring theme in the minutes is public frustration that the city's existing Title 11 noise ordinances are completely unequipped to handle modern, continuous technical noise. Citizens have demanded that the city stop relying on vague rules and instead establish hard decibel limits based on the findings of specialized acoustic engineering firms.
---———————————————————————-
+———————————————————————
 
 A ==citizen portal==  a secure, centralized website or mobile application that allows residents to interact directly with their local, state, or federal government online.
 
