@@ -24,7 +24,7 @@ Current & Near-Future Issues
 
  Studies & Property: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Studies/JPM Acoustics\|JPM Acoustics]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Studies/JPM Acoustics engineering study\|JPM Acoustics engineering study]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Property/Location\|Location]]
 
-📰 Newest Updates
+📰 Data Center Info Newest Updates
 
  [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Battle\|Battle]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Battle Not Over\|Battle Not Over]]
 
