@@ -42,7 +42,6 @@ Current & Near-Future Issues
 
  [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Downtown Parking and Zoning Realignment/Downtown Parking and Zoning Realignment\|Downtown Parking and Zoning Realignment]]
 
- [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/High-Density Development vs. Neighborhood Infrastructure/tension between High-Density Development and Neighborhood Infrastructure\|tension between High-Density Development and Neighborhood Infrastructure]]
 
  Budget & Aquatics: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/The FY2027 Budget and the Aquatics Center Tax Debate/Aquatics Center\|Aquatics Center]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/The FY2027 Budget and the Aquatics Center Tax Debate/The FY2027 Budget\|The FY2027 Budget]]
 
