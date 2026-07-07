@@ -4,15 +4,15 @@
 
 [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/The FY2027 Budget and the Aquatics Center Tax Debate/The FY2027 Budget\|The FY2027 Budget]] 
 
-The Johnson City Commission passed the fiscal year 2026–2027 budget, which included a ==property tax rate increase==. 
+The Johnson City Commission passed the fiscal year 2026–2027 budget, which included a property tax rate increase. 
 
-The central flashpoint is the funding and planning for a proposed $37 million comprehensive aquatics center. 
+The central flashpoint is the funding and planning for a proposed $37 million comprehensive [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/The FY2027 Budget and the Aquatics Center Tax Debate/Aquatics Center\|Aquatics Center]]. 
 
-The community and commission remain deeply divided over the timing of the tax hike versus the long-term value of regional quality-of-life amenities.  
+The community and commission remain deeply divided over the timing of the tax hike versus the long-term value of regional quality-of-life amenities.
 
 2 Adoption of the "[[Johnson City Issues Present, Past, and Future/Horizon 2045\|Horizon 2045]]" Growth Management Plan
 
-With a pivotal public hearing scheduled for July 2026, the city is finalized a massive, 20-year framework to guide zoning, infrastructure investment, and land use. Managing this transition will dominate the planning commission's agenda over the next six months as they attempt to balance rapid expansion with preserving the city's unique character.  
+With a pivotal public hearing scheduled for July 2026, the city is finalizing a massive, 20-year framework to guide zoning, infrastructure investment, and land use. Managing this transition will dominate the planning commission's agenda over the next six months as they attempt to balance rapid expansion with preserving the city's unique character. 
 
 3.[[High-Density Development vs. Neighborhood Character\|High-Density Development vs. Neighborhood Character]]
 

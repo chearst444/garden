@@ -3,7 +3,7 @@
 ---
 
 
-If this construction is allowed to go through prematurely under weak or inadequate zoning restrictions—like a standard, blanket 200-foot buffer—the municipality faces these five distinct negative planning impacts:
+If this construction is allowed to go through prematurely under weak or inadequate zoning restrictions, like a standard, blanket 200-foot buffer, the municipality possibly faces these five distinct negative planning impacts:
 
 ==1. Severe Noise Incompatibility and Zoning Degradation==
 
@@ -23,4 +23,4 @@ In economic planning, we look at the "jobs-per-acre" ratio to ensure the communi
 
 5. Heightened Municipal Legal Exposure and Public Distrust
 
-A primary duty of a city planning panel is to avoid "arbitrary and capricious" zoning decisions that invite costly litigation. Allowing a project to break ground before a formal, scientific baseline is completed—such as the ongoing acoustic engineering study—leaves the city highly vulnerable. If the noise levels ultimately create a verified public nuisance, the city could face heavy lawsuits from neighborhood coalitions for failing to protect public health. Conversely, patching the rules after the fact risks developer lawsuits, exposing the municipality to severe financial liability and fundamentally shattering the public's trust in local government transparency.
+A primary duty of a city planning panel is to avoid "arbitrary and capricious" zoning decisions that invite costly litigation. Allowing a project to break ground before a formal, scientific baseline is completed?such as the ongoing acoustic engineering study, leaves the city highly vulnerable. If the noise levels ultimately create a verified public nuisance, the city could face heavy lawsuits from neighborhood coalitions for failing to protect public health. Conversely, patching the rules after the fact risks developer lawsuits, exposing the municipality to severe financial liability and fundamentally shattering the public's trust in local government transparency.

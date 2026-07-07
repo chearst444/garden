@@ -31,11 +31,4 @@ JPM is currently tackling several key tasks:
 
  Drafting the New Ordinance Text: JPM isn't just handing over a spreadsheet of numbers. Their contract explicitly mandates that they author the actual text amendments for the upcoming updates to #Title11 (the city noise ordinance).
 
-The Ultimate Value for Your Prep Sheet
-
-Understanding who JPM Acoustics is gives you a major strategic advantage when helping your pastor. The current pro-data-center planners are likely hoping to use the JPM study to quietly establish that a 200-foot buffer with a few acoustic panels is "scientifically sufficient."
-
-But ==because JPM specializes in rigorous environmental science, they are legally bound to report the true nature of continuous low-frequency waves—including how they easily bypass standard walls and travel long distances over varying terrain.== 
-
-==By highlighting the strict technical criteria JPM is measuring, your pastor can position himself as the candidate who stands with the independent scientific data to protect the local neighborhoods, rather than letting political insiders rush through a weak compromise.==
-
+ JPM specializes in rigorous environmental science, they are legally bound to report the true nature of continuous low-frequency waves, including how they easily bypass standard walls and travel long distances over varying terrain.

@@ -35,7 +35,7 @@ Instead of forcing you to go down to city hall, stand in lines, or call multiple
 
 Here is a breakdown of what a standard municipal citizen portal typically handles:
 
- Public Requests & Reporting: Residents can report non-emergency local issues directly to city public works—like potholes, broken streetlights, or missed trash collection—often pinning the exact location on a map and tracking the status of the repair.
+ Public Requests & Reporting: Residents can report non-emergency local issues directly to city public work, like potholes, broken streetlights, or missed trash collection, often pinning the exact location on a map and tracking the status of the repair.
 
  Payments & Transactions: A secure pipeline to pay property taxes, settle parking tickets, renew vehicle registrations, or pay monthly city utility bills (like water, sewer, and electric).
 
@@ -59,7 +59,7 @@ For a city leader or commissioner, a well-implemented citizen portal is a massiv
 
  The Private Tech Lease: BrightRidge bought the parcel with the explicit intention of leasing or setting up a joint venture on that land for a private cryptocurrency mining/data firm to build their facility.  
 
-This is exactly why the City Commission's moratorium—which is currently extended to ==December 3, 2026==—is so critical. Because it is an industrial park zone (I-2), under the old rules, a tech company could have technically built there by right.  
+This is exactly why the City Commission's moratorium, which is currently extended to ==December 3, 2026==,is so critical. Because it is an industrial park zone (I-2), under the old rules, a tech company could have technically built there by right.  
 
 By putting everything on ice until December, the city is using its zoning power to step in and say, "We don't care who owns the parcel or who is leasing it; nobody is building a data center here until we pass strict rules requiring fully enclosed buildings, massive sound screening, and a ==200-foot buffer from the nearest neighborhood line== ".
 
@@ -71,7 +71,7 @@ In zoning law, a " #setback" is the minimum distance a building or piece of mach
 
 1. The Legal "Balancing Act"
 
-From the city attorney's perspective, municipal governments cannot pass zoning laws that are so restrictive they create an "effective ban" on a legitimate type of business, as that opens the city up to lawsuits from landowners and developers. The 200-foot requirement was drafted as a compromise—a distance that forces the facility back from the immediate edge of a neighborhood without completely making the industrial land unusable.  
+From the city attorney's perspective, municipal governments cannot pass zoning laws that are so restrictive they create an "effective ban" on a legitimate type of business, as that opens the city up to lawsuits from landowners and developers. The 200-foot requirement was drafted as a compromise, a distance that forces the facility back from the immediate edge of a neighborhood without completely making the industrial land unusable.  
 
 2. A Basic Buffer for Noise Dissipation
 
@@ -79,8 +79,8 @@ Sound naturally drops in volume over distance. Combined with the other new rule 
 
 Why It's a Major Sticking Point
 
-Even though the Planning Commission recently approved the 200-foot rule in a split 4-to-2 vote, many residents and neighborhood advocates are fighting it, arguing it isn't nearly enough.  
+Even though ==the Planning Commission recently approved the 200-foot rule in a split 4-to-2 vote,==  many residents and neighborhood advocates are fighting it, arguing it isn't nearly enough.  
 
-Because ==data center cooling fans emit a continuous, 24/7 low-frequency drone, sound waves travel much further and penetrate walls easier than standard traffic sound. Community groups and environmental advocates have actually pushed for a vastly larger buffer zone—with some community resolutions demanding setbacks as deep as 3,400 feet from homes, schools, and parks to fully guarantee peace and quiet. == 
+Because ==data center cooling fans emit a continuous, 24/7 low-frequency drone, sound waves travel much further and penetrate walls easier than standard traffic sound. Community groups and environmental advocates have actually pushed for a vastly larger buffer zone—with some community resolutions demanding setbacks as deep as 3,400 feet from homes, schools, and parks to fully guarantee peace and quiet==
 
 This exact debate is why the full City Commission extended the moratorium into December. They want to wait for the results of the official JPM Acoustics engineering study to prove whether 200 feet is mathematically enough to stop the noise, or if the science demands they push that boundary line much further back.

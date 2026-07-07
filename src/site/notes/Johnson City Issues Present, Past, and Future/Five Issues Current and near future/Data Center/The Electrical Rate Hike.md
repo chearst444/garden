@@ -4,7 +4,6 @@
 
 Now, let's hit the third and final chapter for your physical case studies: how this frantic tech rush financially squeezes everyday families.
 
-You can break this economic reality down into three clear points for your pastor:
 
 1. The Heavy-Duty Infrastructure Burden
 
@@ -26,4 +25,3 @@ When a city leadership team catches industrial FOMO and rushes a project through
 
 Slowing down, asking the hard economic questions, and forcing the tech companies to pay for 100% of their own infrastructure and power upgrades is how a city protects its most vulnerable citizens. It ensures that fixed-income seniors, working families, and local ministries aren't forced to pay higher monthly bills just so a private company can chase the next big digital jackpot.
 
-How does this final piece layout feel for the packet? This rounds out the three physical pillars—Sound, Water, and Rates—leaving you with a rock-solid case for your pastor that blends concrete community facts with deep theological truth.

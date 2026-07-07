@@ -91,5 +91,4 @@ Data centers and crypto operations are incredibly capital-intensive and rely on 
 
 If the commissioners vote for the 200-foot rule on December 3rd, they are doing so right at the start of the winter season, leaving the issue burning hot in voters' minds going into the next year.
 
- The Play: This is where your pastor’s run becomes incredibly powerful. The families can organize a massive, single-issue voting bloc. They can explicitly fund and campaign for challenger candidates—like your pastor—who run on a platform of reversing the weak zoning laws, protecting the neighborhoods, and holding the city manager accountable.
-
+ 

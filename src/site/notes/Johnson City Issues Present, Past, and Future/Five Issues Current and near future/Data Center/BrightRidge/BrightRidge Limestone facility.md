@@ -6,9 +6,9 @@ The backstory on the Limestone facility explains exactly why BrightRidge is acti
 
 When and Why the Limestone Facility Happened
 
-The Limestone facility—an industrial-scale cryptocurrency mining operation run by Red Dog Technologies—opened in 2021. It was built on land owned by BrightRidge directly adjacent to an existing electrical substation.  
+The Limestone facility, an industrial-scale cryptocurrency mining operation run by Red Dog Technologies, opened in 2021. It was built on land owned by BrightRidge directly adjacent to an existing electrical substation.  
 
-At the time, BrightRidge promoted it as a massive win for the utility: it was a "high-usage customer" that swallowed up surplus power during off-peak hours. Red Dog became BrightRidge's single largest industrial client, drawing a staggering 12 megawatts of power—roughly 7% of BrightRidge's entire electricity sales, or the equivalent of powering nearly 9,800 homes. The revenue from this single site heavily subsidized the utility, keeping residential electric rates low for everyone else in the area.  
+At the time, BrightRidge promoted it as a massive win for the utility: it was a "high-usage customer" that swallowed up surplus power during off-peak hours. Red Dog became BrightRidge's single largest industrial client, drawing a staggering 12 megawatts of power, roughly 7% of BrightRidge's entire electricity sales, or the equivalent of powering nearly 9,800 homes. The revenue from this single site heavily subsidized the utility, keeping residential electric rates low for everyone else in the area.  
 
 The Fallout: "A Jet Plane Idling"
 

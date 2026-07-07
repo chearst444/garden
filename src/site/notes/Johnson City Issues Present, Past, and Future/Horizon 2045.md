@@ -5,7 +5,9 @@
 
 The "Horizon 2045" Growth Management Plan...
 
-The "Horizon 2045" Growth Management Plan is Johnson City’s newly updated comprehensive plan, designed to serve as a community-driven roadmap for the city's development, infrastructure, and housing over the next two decades. State law requires all jurisdictions that maintain a zoning map to establish a guiding comprehensive plan, and Horizon 2045 is the city’s current framework to ensure growth remains manageable rather than reactive.
+The "Horizon 2045" Growth Management Plan is Johnson City’s newly updated comprehensive plan, designed to serve as a community-driven roadmap for the city's development, infrastructure, and housing over the next two decades.
+
+State law requires all jurisdictions that maintain a zoning map to establish a guiding comprehensive plan, and Horizon 2045 is the city’s current framework to ensure growth remains manageable rather than reactive.
 
 Long-term demographic projections suggest that Johnson City will experience roughly a 24% growth in population by the year 2045. Because this expansion is expected to unfold gradually over the next twenty years, municipal planners are using Horizon 2045 to strategically catch up with current growing pains while aligning future land use with housing affordability, fiscal responsibility, and local character.
 
@@ -21,13 +23,9 @@ The city is currently navigating the final regulatory steps to officially adopt 
 
 Core Concepts of the Plan
 
- Shifting from Zoning Districts to "Placetypes"
+ Shifting from Zoning Districts to "Placetypes": Unlike traditional zoning districts, which strictly dictate law and legal requirements for individual parcels, Horizon 2045 introduces "Placetypes." Placetypes outline a broader community vision for building forms, land-use ranges, and neighborhood aesthetics. City staff and elected officials will use these designated placetypes as the primary benchmark to approve or deny future property rezoning requests.
 
-Unlike traditional zoning districts, which strictly dictate law and legal requirements for individual parcels, Horizon 2045 introduces "Placetypes." #Placetypes outline a broader community vision for building forms, land-use ranges, and neighborhood aesthetics. City staff and elected officials will use these designated placetypes as the primary benchmark to approve or deny future property rezoning requests.
-
- Balancing Infrastructure with Neighborhood Character
-
-The document consolidates multiple previous city planning studies into a unified master strategy. A major focus of the text involves coordinating multi-million-dollar public infrastructure investments (like road widening, utility extensions, and stormwater systems) so they happen concurrently with private development, preventing high-density housing projects from overwhelming existing neighborhood streets.
+ Balancing Infrastructure with Neighborhood Character: The document consolidates multiple previous city planning studies into a unified master strategy. A major focus of the text involves coordinating multi-million-dollar public infrastructure investments, such as road widening, utility extensions, and stormwater systems, so they happen concurrently with private development. This strategy aims to prevent high-density housing projects from overwhelming existing neighborhood streets.
 
 Digital Resources for Reference
 
