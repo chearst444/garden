@@ -34,7 +34,6 @@
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/🚌 Case for Transit Extended Hours\|🚌 Case for Transit Extended Hours]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/🏊 Logistic Flaw - The Aquatics Center Isolation\|🏊 Logistic Flaw - The Aquatics Center Isolation]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Other Areas Transport\|Other Areas Transport]]
-    *   [[Possible Aquatic Elephant\|Possible Aquatic Elephant]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/The Question of "Who Is This For?"\|The Question of "Who Is This For?"]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Transit Extended Cases\|Transit Extended Cases]]
     *   [[Downloadable Transit Pilot Program Petition Template\|Downloadable Transit Pilot Program Petition Template]]
