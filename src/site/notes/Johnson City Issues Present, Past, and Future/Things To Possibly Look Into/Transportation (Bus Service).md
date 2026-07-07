@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/johnson-city-issues-present-past-and-future/things-to-possibly-look-into/transportation-bus-service/","dg-note-properties":{}}
 ---
 
-While there is persistent community chatter—especially from downtown workers, hospitality staff, and ETSU students—about pushing the main transit hours later into the night, the standard daytime bus schedule remains tightly fixed.  
+While there is persistent community chatter, especially from downtown workers, hospitality staff, and ETSU students, about pushing the main transit hours later into the night, the standard daytime bus schedule remains tightly fixed.  
 
 The core issue is that Johnson City Transit (JCT) cuts off its main daytime fixed routes by 6:15 PM on weekdays and 5:15 PM on Saturdays, with no service at all on Sundays. For anyone working a late shift downtown or trying to enjoy the nightlife, the regular bus system cuts off right as the dinner rush begins.  
 

@@ -31,11 +31,8 @@
 *   🚌 Transit & Infrastructure
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transportation (Bus Service)\|Transportation (Bus Service)]]
 *   ⏱️ Transit Extended Hours
-    *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Community Health Impact Transit Access & Equity\|Community Health Impact Transit Access & Equity]]
-    *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Case for transit extended hours\|Case for transit extended hours]]
-    *   [[Johnson City Transit (JCT) Evening Hours\|Johnson City Transit (JCT) Evening Hours]]
-    *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Logistic Flaw - Aquatic Center\|Logistic Flaw - Aquatic Center]]
-    *   [[Operational budget for Johnson City Transit\|Operational budget for Johnson City Transit]]
+    *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/🚌 Case for Transit Extended Hours\|🚌 Case for Transit Extended Hours]]
+    *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/🏊 Logistic Flaw - The Aquatics Center Isolation\|🏊 Logistic Flaw - The Aquatics Center Isolation]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/Other Areas Transport\|Other Areas Transport]]
     *   [[Possible Aquatic Elephant\|Possible Aquatic Elephant]]
     *   [[Johnson City Issues Present, Past, and Future/Things To Possibly Look Into/Transit Extended Hours/The Question of "Who Is This For?"\|The Question of "Who Is This For?"]]
