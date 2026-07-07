@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Virginia Data Center Tax</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script type="importmap">
+{
+  "imports": {
+    "d3-force": "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm",
+    "d3-selection": "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm",
+    "d3-zoom": "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm",
+    "d3-drag": "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0})</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.69816771.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section no-filetree has-navbar">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Johnson City Civic Repository</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian print">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>7/6/26</p>
+<p>The new Virginia data center energy tax is <mark>a <strong>first-of-its-kind statewide electricity consumption tax</strong> enacted as part of the state's 2026 biennial budget</mark>. While the tax introduces a massive new operating cost for tech companies, it was designed as a political compromise to protect ordinary residents, though broader data center infrastructure growth continues to drive up regional utility rates. [<a href="https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers" target="_blank" class="external-link">1</a>, <a href="https://www.gtlaw.com/en/insights/2026/6/virginia-legislature-approves-tax-on-data-center-electricity-consumption" target="_blank" class="external-link">2</a>, <a href="https://www.linkedin.com/posts/datacenterfrontier_data-center-regulation-is-no-longer-a-threat-activity-7476620335358898176-GotR" target="_blank" class="external-link">3</a>, <a href="https://www.youtube.com/watch?v=0KVK9ed1Cm8" target="_blank" class="external-link">4</a>, <a href="https://www.foxbusiness.com/energy/virginia-county-urges-power-saving-measures-amid-25-electricity-rate-hike-data-center-growth" target="_blank" class="external-link">5</a>, <a href="https://www.yahoo.com/news/us/articles/virginia-county-tells-workers-switch-002400860.html" target="_blank" class="external-link">6</a>]</p>
+<hr>
+<p>🏛️ The New Energy Tax: Key Details</p>
+<p>The tax was passed by the General Assembly in late June 2026 to settle a high-stakes budget standoff regarding the tech industry's footprint in the state. [<a href="https://www.kiplinger.com/taxes/virginia-approves-first-data-center-power-tax" target="_blank" class="external-link">1</a>, <a href="https://www.gtlaw.com/en/insights/2026/6/virginia-legislature-approves-tax-on-data-center-electricity-consumption" target="_blank" class="external-link">2</a>]</p>
+<ul>
+<li><strong>The Rate:</strong> Starting <strong>July 1, 2026</strong>, data center operators must pay <strong>$0.011 (1.1 cents) per kilowatt-hour (kWh)</strong> of electricity consumed each month. [<a href="https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers" target="_blank" class="external-link">1</a>, <a href="https://www.kiplinger.com/taxes/virginia-approves-first-data-center-power-tax" target="_blank" class="external-link">2</a>]</li>
+<li><strong>The Target:</strong> It applies to facilities with at least 1 megawatt of electrical capacity. Because it explicitly excludes internet service and communications providers, it primarily targets hyperscale cloud and <strong>Artificial Intelligence (AI) operations</strong>. [<a href="https://energynewsbeat.co/ai/a-new-electricity-consumption-tax-on-data-centers-in-virginia-passes-into-law-on-july-1-2026/" target="_blank" class="external-link">1</a>, <a href="https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers" target="_blank" class="external-link">2</a>, <a href="https://www.gtlaw.com/en/insights/2026/6/virginia-legislature-approves-tax-on-data-center-electricity-consumption" target="_blank" class="external-link">3</a>]</li>
+<li><strong>The Revenue Cap:</strong> The state expects to collect <strong>$600 million annually</strong> ($1.2 billion over the two-year budget cycle). If total collections exceed $600 million in a fiscal year, the excess is refunded to operators on a pro-rata basis. [<a href="https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers" target="_blank" class="external-link">1</a>, <a href="https://energynewsbeat.co/ai/a-new-electricity-consumption-tax-on-data-centers-in-virginia-passes-into-law-on-july-1-2026/" target="_blank" class="external-link">2</a>]</li>
+<li><strong>Sunset Clause:</strong> The tax is temporary and is scheduled to <strong>expire on June 30, 2028</strong>, unless lawmakers choose to extend it. [<a href="https://www.jdsupra.com/legalnews/virginia-budget-creates-new-electricity-9984858/" target="_blank" class="external-link">1</a>, <a href="https://energynewsbeat.co/ai/a-new-electricity-consumption-tax-on-data-centers-in-virginia-passes-into-law-on-july-1-2026/" target="_blank" class="external-link">2</a>]</li>
+<li><strong>The Compromise:</strong> Clean energy advocates and select lawmakers originally pushed to completely eliminate the state's lucrative data center sales tax exemption (which saves the industry roughly $1.9 billion a year). To protect Virginia's status as &quot;Data Center Alley,&quot; Governor Abigail Spanberger's administration compromised: they <strong>kept the sales tax exemption</strong> through its 2035 sunset but added this direct power consumption levy. [<a href="https://www.bdo.com/insights/tax/virginia-enacts-unprecedented-electricity-consumption-tax-on-data-centers" target="_blank" class="external-link">1</a>, <a href="https://www.canarymedia.com/articles/data-centers/virginia-data-centers-new-tax" target="_blank" class="external-link">2</a>, <a href="https://datacenters.economictimes.indiatimes.com/news/policy-land-power/virginia-introduces-electricity-tax-for-data-centers/131956649" target="_blank" class="external-link">3</a>, <a href="https://www.pcrehomes.com/blog/virginia-data-center-electricity-tax-budget-2026/" target="_blank" class="external-link">4</a>, <a href="https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers" target="_blank" class="external-link">5</a>, <a href="https://www.kiplinger.com/taxes/virginia-approves-first-data-center-power-tax" target="_blank" class="external-link">6</a>]</li>
+</ul>
+<hr>
+<p>⚡ Impact on Electricity Costs</p>
+<p>The tax has complex, dual impacts on the broader Virginia energy grid and consumer wallets: [<a href="https://www.sierraclub.org/virginia/blog/2026/06/release-general-assembly-s-budget-agreement-puts-data-centers-ahead-virginia" target="_blank" class="external-link">1</a>, <a href="https://www.wric.com/virginia-the-worlds-data-center-capital/" target="_blank" class="external-link">2</a>]</p>
+<ol>
+<li>Preventing Cost-Shifting to Residents</li>
+</ol>
+<p>The primary intent of the consumption tax—and a concurrent new data center rate class implemented by the <a href="https://www.google.com/url?sa=i&amp;source=web&amp;rct=j&amp;url=https://www.americanactionforum.org/insight/virginias-new-data-center-electricity-rate-class/&amp;ved=2ahUKEwjWwujXsr-VAxU-_8kDHeJlA28Qy_kOeggIAggACBIQAQ&amp;opi=89978449&amp;cd&amp;psig=AOvVaw0HFPtu1Afxj3YhMTLcz3Pv&amp;ust=1783473506451000" target="_blank" class="external-link">Virginia State Corporation Commission (SCC)</a>—is to force trillion-dollar tech companies to pay their &quot;fair share&quot;. By directly taxing their power use and requiring large facilities to pay higher upfront minimum demand charges, state regulators are trying to prevent grid-upgrade costs from being dumped onto residential utility bills. [<a href="https://www.americanactionforum.org/insight/virginias-new-data-center-electricity-rate-class/" target="_blank" class="external-link">1</a>, <a href="https://www.thecooldown.com/green-business/data-centers-impact-virginia-power-bills/" target="_blank" class="external-link">2</a>, <a href="https://www.linkedin.com/posts/datacenterfrontier_data-center-regulation-is-no-longer-a-threat-activity-7476620335358898176-GotR" target="_blank" class="external-link">3</a>]</p>
+<ol start="2">
+<li>Rising Rates Due to Infrastructure Strain [<a href="https://finance.yahoo.com/economy/policy/articles/virginia-becomes-testing-ground-data-114853500.html" target="_blank" class="external-link">1</a>, <a href="https://www.instagram.com/reel/DaLrNqcDe_Z/" target="_blank" class="external-link">2</a>, <a href="https://www.wric.com/virginia-the-worlds-data-center-capital/" target="_blank" class="external-link">3</a>]</li>
+</ol>
+<p>Despite the new tax, Virginia residents and local governments are still dealing with soaring electricity prices driven by the sheer <em>volume</em> of data center growth. For instance, on July 1, 2026, roughly 170 public entities—including <strong>Henrico County</strong>—faced a sudden <strong>25% surge in electricity rates</strong> negotiating with Dominion Energy. The strain is so severe that local schools and government offices have been ordered to dim lights, power down computers, and unplug appliances to save money. [<a href="https://www.inc.com/georgia-fearn/welcomed-37-data-centers-now-schools-dim-lights-cut-energy-costs/91368206" target="_blank" class="external-link">1</a>, <a href="https://www.youtube.com/watch?v=5biLn0aNLqg&amp;t=12" target="_blank" class="external-link">2</a>, <a href="https://www.govtech.com/question-of-the-day/how-much-are-data-centers-driving-up-county-electricity-costs-in-virginia" target="_blank" class="external-link">3</a>, <a href="https://www.yahoo.com/news/us/articles/virginia-county-tells-workers-switch-002400860.html" target="_blank" class="external-link">4</a>]</p>
+<ol start="3">
+<li>Long-Term Forecasts [<a href="https://virginiamercury.com/2026/06/30/virginia-has-a-new-two-year-budget-heres-what-lawmakers-now-require-of-data-centers/" target="_blank" class="external-link">1</a>]</li>
+</ol>
+<p>A recent <a href="https://www.google.com/url?sa=i&amp;source=web&amp;rct=j&amp;url=https://vcnva.org/agenda-item/addressing-data-center-energy-demand/&amp;ved=2ahUKEwjWwujXsr-VAxU-_8kDHeJlA28Qy_kOeggIAggACBYQAQ&amp;opi=89978449&amp;cd&amp;psig=AOvVaw0HFPtu1Afxj3YhMTLcz3Pv&amp;ust=1783473506451000" target="_blank" class="external-link">Joint Legislative Audit and Review Commission (JLARC) report</a> warned that unchecked data center expansion could double the state's energy use over the next decade, potentially driving up residential bills by <strong>$444 per year by 2040</strong> if infrastructure investments are not managed aggressively. [<a href="https://vcnva.org/agenda-item/addressing-data-center-energy-demand/" target="_blank" class="external-link">1</a>]</p>
+<hr>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+<script>document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".obsidian-bases-views").forEach((function(e){var t=e.querySelector(".obsidian-bases-active-view"),a=e.querySelector(".obsidian-bases-dropdown"),i=e.querySelectorAll(".obsidian-bases-dropdown-item"),n=e.querySelectorAll(".obsidian-bases-view-panel"),o=e.querySelector(".obsidian-bases-active-view-name"),r=e.querySelector(".obsidian-bases-count-value");t&&a&&(t.addEventListener("click",(function(e){e.stopPropagation();var i="none"!==a.style.display;a.style.display=i?"none":"block",t.setAttribute("aria-expanded",!i)})),document.addEventListener("click",(function(){a.style.display="none",t.setAttribute("aria-expanded","false")})),i.forEach((function(s){s.addEventListener("click",(function(s){s.stopPropagation();var d=this.getAttribute("data-view-index");i.forEach((function(e){e.classList.remove("active")})),this.classList.add("active"),n.forEach((function(e){e.style.display="none"}));var l=e.querySelector('.obsidian-bases-view-panel[data-view-index="'+d+'"]');l&&(l.style.display="block");var c=this.querySelector(".obsidian-bases-view-icon"),u=t.querySelector(".obsidian-bases-view-icon");if(c&&u&&u.replaceWith(c.cloneNode(!0)),o&&(o.textContent=this.textContent.trim()),r&&l){var b=l.querySelectorAll("tbody tr:not(.obsidian-base-group-row), .obsidian-base-card, .obsidian-base-list li");r.textContent=b.length}a.style.display="none",t.setAttribute("aria-expanded","false")}))})))})),document.querySelectorAll(".bases-dynamic-date").forEach((function(e){var t=e.getAttribute("data-type"),a=new Date;if("today"===t){var i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o}else if("now"===t){i=a.getFullYear(),n=String(a.getMonth()+1).padStart(2,"0"),o=String(a.getDate()).padStart(2,"0");var r=String(a.getHours()).padStart(2,"0"),s=String(a.getMinutes()).padStart(2,"0");e.textContent=i+"-"+n+"-"+o+" "+r+":"+s}}))}))</script>
+</body>
+</html>
