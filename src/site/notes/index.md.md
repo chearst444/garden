@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/index-md/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-
 # Johnson City Civic Repository
 
 ### Current & Near-Future Issues
@@ -12,7 +11,7 @@
 *   ⚡ Data Center Project
     *   Angles: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Angles/Citizen Concerns\|Citizen Concerns]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Angles/Planning Thoughts\|Planning Thoughts]]
     *   BrightRidge: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/BrightRidge/BrightRidge Limestone facility\|BrightRidge Limestone facility]]
-    *   Safety & Threats: [[Other/Data Center Other and New/Safety of Centers\|Safety of Centers]] | [[Other/Data Center Other and New/Threats\|Threats]] [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning\|🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning]] [[[💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management\|[💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management]]]
+    *   Safety & Threats: [[Other/Data Center Other and New/Safety of Centers\|Safety of Centers]] | [[Other/Data Center Other and New/Threats\|Threats]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning\|🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management\|💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management]]
     *   Data Center Docs: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Data Center\|Data Center]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Denied, Delayed Centers\|Denied, Delayed Centers]]
     *   Studies & Property: [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Studies/JPM Acoustics\|JPM Acoustics]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Studies/JPM Acoustics engineering study\|JPM Acoustics engineering study]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Johnson City/Property/Location\|Location]]
 *   📰 Data Center Info Newest Updates
@@ -20,8 +19,7 @@
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/High-stakes legislative battle over how—and where—artificial intelligence data centers can operate.\|High-stakes legislative battle over how—and where—artificial intelligence data centers can operate.]]
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Scissor Effect\|Scissor Effect]]
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/FOMO on an Industrial Scale, The Cost of Chasing the Illusion\|FOMO on an Industrial Scale, The Cost of Chasing the Illusion]]
-    *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/The Electrical Rate Hike\|The Electrical Rate Hike]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning\|🔊 The Sound Footprint Inescapable Disruption and the Cost of Rushed Industrial Zoning]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management\|💧 The Water Footprint Chasing the Digital Illusion at the Expense of Local Resource Management]]
-    *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Transmission Lines\|Transmission Lines]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Videos and notes\|Videos and notes]]
+    *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/The Electrical Rate Hike\|The Electrical Rate Hike]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Transmission Lines\|Transmission Lines]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Videos and notes\|Videos and notes]]
     *   [[Other/Data Center Other and New/Virginia Data Center Tax\|Virginia Data Center Tax]]
 *   🚗 Municipal Realities
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Downtown Parking and Zoning Realignment/Downtown Parking and Zoning Realignment\|Downtown Parking and Zoning Realignment]]
