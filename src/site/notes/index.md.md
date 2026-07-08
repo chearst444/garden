@@ -17,7 +17,7 @@
 *   📰 Data Center Info Newest Updates
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Battle\|Battle]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Battle Not Over\|Battle Not Over]]
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/High-stakes legislative battle over how—and where—artificial intelligence data centers can operate.\|High-stakes legislative battle over how—and where—artificial intelligence data centers can operate.]]
-    *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/Scissor Effect\|Scissor Effect]]
+    *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Newest/✂️ The Scissor Effect - A Grid at its Breaking Point\|✂️ The Scissor Effect - A Grid at its Breaking Point]]
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/FOMO on an Industrial Scale, The Cost of Chasing the Illusion\|FOMO on an Industrial Scale, The Cost of Chasing the Illusion]]
     *   [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/The Electrical Rate Hike\|The Electrical Rate Hike]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Transmission Lines\|Transmission Lines]] | [[Johnson City Issues Present, Past, and Future/Five Issues Current and near future/Data Center/Videos and notes\|Videos and notes]]
     *   [[Other/Data Center Other and New/Virginia Data Center Tax\|Virginia Data Center Tax]]
@@ -59,3 +59,5 @@
 
 ### Support the Effort
 *   ☕ [[Buy Me a Coffee Link\|Buy Me a Coffee Link]]
+
+*This site represents independent research and personal analysis, not official reporting. Facts, figures, and circumstances may change over time. If you spot an error or outdated info, let me know and I’ll correct it.*
